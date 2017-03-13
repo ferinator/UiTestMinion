@@ -1,0 +1,1965 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testData>
+    <testGroups>
+        <name>[-testgroup-]admin</name>
+        <globalPermissions>
+            <canUse>false</canUse>
+            <attachFilesToUserProfile>false</attachFilesToUserProfile>
+            <personalSpace>false</personalSpace>
+            <createSpace>false</createSpace>
+            <confluenceAdministrator>false</confluenceAdministrator>
+            <systemAdministrator>false</systemAdministrator>
+        </globalPermissions>
+    </testGroups>
+    <testGroups>
+        <name>[-testgroup-]adminanduser</name>
+        <globalPermissions>
+            <canUse>false</canUse>
+            <attachFilesToUserProfile>false</attachFilesToUserProfile>
+            <personalSpace>false</personalSpace>
+            <createSpace>false</createSpace>
+            <confluenceAdministrator>false</confluenceAdministrator>
+            <systemAdministrator>false</systemAdministrator>
+        </globalPermissions>
+    </testGroups>
+    <testGroups>
+        <name>[-testgroup-]emptygroup</name>
+        <globalPermissions>
+            <canUse>false</canUse>
+            <attachFilesToUserProfile>false</attachFilesToUserProfile>
+            <personalSpace>false</personalSpace>
+            <createSpace>false</createSpace>
+            <confluenceAdministrator>false</confluenceAdministrator>
+            <systemAdministrator>false</systemAdministrator>
+        </globalPermissions>
+    </testGroups>
+    <testGroups>
+        <name>[-testgroup-]group2</name>
+        <globalPermissions>
+            <canUse>false</canUse>
+            <attachFilesToUserProfile>false</attachFilesToUserProfile>
+            <personalSpace>false</personalSpace>
+            <createSpace>false</createSpace>
+            <confluenceAdministrator>false</confluenceAdministrator>
+            <systemAdministrator>false</systemAdministrator>
+        </globalPermissions>
+    </testGroups>
+    <testGroups>
+        <name>[-testgroup-]user</name>
+        <globalPermissions>
+            <canUse>false</canUse>
+            <attachFilesToUserProfile>false</attachFilesToUserProfile>
+            <personalSpace>false</personalSpace>
+            <createSpace>false</createSpace>
+            <confluenceAdministrator>false</confluenceAdministrator>
+            <systemAdministrator>false</systemAdministrator>
+        </globalPermissions>
+    </testGroups>
+    <testUsers>
+        <name>[-testuser-]1</name>
+        <fullName>[-testuser-]1</fullName>
+        <email>[-testuser-]1@[-testuser-]1.[-testuser-]1</email>
+        <globalPermissions>
+            <canUse>true</canUse>
+            <attachFilesToUserProfile>false</attachFilesToUserProfile>
+            <personalSpace>true</personalSpace>
+            <createSpace>true</createSpace>
+            <confluenceAdministrator>false</confluenceAdministrator>
+            <systemAdministrator>false</systemAdministrator>
+        </globalPermissions>
+        <listedInGroups>[-testgroup-]adminanduser</listedInGroups>
+        <listedInGroups>[-testgroup-]user</listedInGroups>
+        <listedInGroups>confluence-users</listedInGroups>
+    </testUsers>
+    <testSpaces>
+        <spaceName>[-TestSpace-]ButtonReferenceExternal</spaceName>
+        <spaceKey>SeleniumButtonReferenceExternal</spaceKey>
+        <createdBy>admin</createdBy>
+        <spacePermissions>
+            <groups>
+                <name>confluence-users</name>
+                <spaceRestrictions>
+                    <all_view>true</all_view>
+                    <pages_add>true</pages_add>
+                    <pages_delete>false</pages_delete>
+                    <blog_add>true</blog_add>
+                    <blog_delete>false</blog_delete>
+                    <comments_add>true</comments_add>
+                    <comments_delete>false</comments_delete>
+                    <attachments_add>true</attachments_add>
+                    <attachments_delete>false</attachments_delete>
+                    <restrictions_addDelete>false</restrictions_addDelete>
+                    <mail_delete>false</mail_delete>
+                    <space_export>true</space_export>
+                    <space_admin>true</space_admin>
+                </spaceRestrictions>
+            </groups>
+            <users>
+                <name>admin</name>
+                <spaceRestrictions>
+                    <all_view>true</all_view>
+                    <pages_add>true</pages_add>
+                    <pages_delete>true</pages_delete>
+                    <blog_add>true</blog_add>
+                    <blog_delete>true</blog_delete>
+                    <comments_add>true</comments_add>
+                    <comments_delete>true</comments_delete>
+                    <attachments_add>true</attachments_add>
+                    <attachments_delete>true</attachments_delete>
+                    <restrictions_addDelete>true</restrictions_addDelete>
+                    <mail_delete>true</mail_delete>
+                    <space_export>true</space_export>
+                    <space_admin>true</space_admin>
+                </spaceRestrictions>
+            </users>
+            <anonymousAccess>
+                <all_view>false</all_view>
+                <pages_add>false</pages_add>
+                <pages_delete>false</pages_delete>
+                <blog_add>false</blog_add>
+                <blog_delete>false</blog_delete>
+                <comments_add>false</comments_add>
+                <comments_delete>false</comments_delete>
+                <attachments_add>false</attachments_add>
+                <attachments_delete>false</attachments_delete>
+                <restrictions_addDelete>false</restrictions_addDelete>
+                <mail_delete>false</mail_delete>
+                <space_export>false</space_export>
+                <space_admin>false</space_admin>
+            </anonymousAccess>
+        </spacePermissions>
+        <testPages>
+            <pageTitle>[-TestSpace-]ButtonReferenceExternal Home</pageTitle>
+            <storageFormat>
+&lt;ac:layout&gt;&lt;ac:layout-section ac:type=&quot;single&quot;&gt;&lt;ac:layout-cell&gt;
+&lt;ac:structured-macro ac:macro-id=&quot;9364f0e4-418e-4c9f-b219-2eaef5fd9641&quot; ac:name=&quot;tip&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;title&quot;&gt;Welcome to your new space!&lt;/ac:parameter&gt;&lt;ac:rich-text-body&gt;
+                    &lt;p&gt;Confluence spaces are great for sharing content and news with your team. This is your home page. Right now it shows recent space activity, but you can customize this page in anyway you like.&lt;/p&gt;
+                &lt;/ac:rich-text-body&gt;&lt;/ac:structured-macro&gt;&lt;h2&gt;Complete these tasks to get started&lt;/h2&gt;&lt;ac:task-list&gt;
+&lt;ac:task&gt;
+&lt;ac:task-id&gt;17&lt;/ac:task-id&gt;
+&lt;ac:task-status&gt;incomplete&lt;/ac:task-status&gt;
+&lt;ac:task-body&gt;
+                        &lt;strong&gt;Edit this home page&lt;/strong&gt; - Click &lt;em&gt;Edit&lt;/em&gt; in the top right of this screen to customize your Space home page
+                    &lt;/ac:task-body&gt;
+&lt;/ac:task&gt;
+&lt;ac:task&gt;
+&lt;ac:task-id&gt;18&lt;/ac:task-id&gt;
+&lt;ac:task-status&gt;incomplete&lt;/ac:task-status&gt;
+&lt;ac:task-body&gt;
+                        &lt;strong&gt;Create your first page&lt;/strong&gt; - Click the &lt;em&gt;Create&lt;/em&gt; button in the header to get started
+                    &lt;/ac:task-body&gt;
+&lt;/ac:task&gt;
+&lt;ac:task&gt;
+&lt;ac:task-id&gt;19&lt;/ac:task-id&gt;
+&lt;ac:task-status&gt;incomplete&lt;/ac:task-status&gt;
+&lt;ac:task-body&gt;
+                        &lt;strong&gt;Brand your Space&lt;/strong&gt; - Click &lt;em&gt;Configure Sidebar&lt;/em&gt; in the left panel to update space details and logo
+                    &lt;/ac:task-body&gt;
+&lt;/ac:task&gt;
+&lt;ac:task&gt;
+&lt;ac:task-id&gt;20&lt;/ac:task-id&gt;
+&lt;ac:task-status&gt;incomplete&lt;/ac:task-status&gt;
+&lt;ac:task-body&gt;
+                        &lt;strong&gt;Set permissions&lt;/strong&gt; - Click &lt;em&gt;Space Tools&lt;/em&gt; in the left sidebar to update permissions and give others access
+                    &lt;/ac:task-body&gt;
+&lt;/ac:task&gt;
+&lt;/ac:task-list&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/ac:layout-cell&gt;&lt;/ac:layout-section&gt;&lt;ac:layout-section ac:type=&quot;two_equal&quot;&gt;&lt;ac:layout-cell&gt;
+&lt;h2&gt;Recent space activity&lt;/h2&gt;&lt;p&gt;
+                    &lt;ac:structured-macro ac:macro-id=&quot;33ad282f-4d41-4c19-9efb-1d83a5078641&quot; ac:name=&quot;recently-updated&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;types&quot;&gt;page, comment, blogpost&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;max&quot;&gt;5&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;hideHeading&quot;&gt;true&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;theme&quot;&gt;social&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;
+                &lt;/p&gt;&lt;/ac:layout-cell&gt;&lt;ac:layout-cell&gt;
+&lt;h2&gt;Space contributors&lt;/h2&gt;&lt;p&gt;
+                    &lt;ac:structured-macro ac:macro-id=&quot;5020051e-24ea-40c2-86cd-364cd032eaad&quot; ac:name=&quot;contributors&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;mode&quot;&gt;list&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;scope&quot;&gt;descendants&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;limit&quot;&gt;5&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;showLastTime&quot;&gt;true&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;order&quot;&gt;update&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;
+                &lt;/p&gt;&lt;/ac:layout-cell&gt;&lt;/ac:layout-section&gt;&lt;ac:layout-section ac:type=&quot;single&quot;&gt;&lt;ac:layout-cell&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/ac:layout-cell&gt;&lt;/ac:layout-section&gt;&lt;/ac:layout&gt;</storageFormat>
+            <children>externalPage__tag__</children>
+            <pagePermissions/>
+            <isHomePage>true</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>externalPage__tag__</pageTitle>
+            <storageFormat></storageFormat>
+            <pagePermissions/>
+            <isHomePage>false</isHomePage>
+        </testPages>
+    </testSpaces>
+    <testSpaces>
+        <spaceName>[-TestSpace-]ButtonReferenceSource</spaceName>
+        <spaceKey>SeleniumButtonReferenceSource</spaceKey>
+        <createdBy>admin</createdBy>
+        <spacePermissions>
+            <groups>
+                <name>confluence-users</name>
+                <spaceRestrictions>
+                    <all_view>true</all_view>
+                    <pages_add>true</pages_add>
+                    <pages_delete>false</pages_delete>
+                    <blog_add>true</blog_add>
+                    <blog_delete>false</blog_delete>
+                    <comments_add>true</comments_add>
+                    <comments_delete>false</comments_delete>
+                    <attachments_add>true</attachments_add>
+                    <attachments_delete>false</attachments_delete>
+                    <restrictions_addDelete>false</restrictions_addDelete>
+                    <mail_delete>false</mail_delete>
+                    <space_export>true</space_export>
+                    <space_admin>true</space_admin>
+                </spaceRestrictions>
+            </groups>
+            <users>
+                <name>admin</name>
+                <spaceRestrictions>
+                    <all_view>true</all_view>
+                    <pages_add>true</pages_add>
+                    <pages_delete>true</pages_delete>
+                    <blog_add>true</blog_add>
+                    <blog_delete>true</blog_delete>
+                    <comments_add>true</comments_add>
+                    <comments_delete>true</comments_delete>
+                    <attachments_add>true</attachments_add>
+                    <attachments_delete>true</attachments_delete>
+                    <restrictions_addDelete>true</restrictions_addDelete>
+                    <mail_delete>true</mail_delete>
+                    <space_export>true</space_export>
+                    <space_admin>true</space_admin>
+                </spaceRestrictions>
+            </users>
+            <anonymousAccess>
+                <all_view>false</all_view>
+                <pages_add>false</pages_add>
+                <pages_delete>false</pages_delete>
+                <blog_add>false</blog_add>
+                <blog_delete>false</blog_delete>
+                <comments_add>false</comments_add>
+                <comments_delete>false</comments_delete>
+                <attachments_add>false</attachments_add>
+                <attachments_delete>false</attachments_delete>
+                <restrictions_addDelete>false</restrictions_addDelete>
+                <mail_delete>false</mail_delete>
+                <space_export>false</space_export>
+                <space_admin>false</space_admin>
+            </anonymousAccess>
+        </spacePermissions>
+        <testPages>
+            <pageTitle>[-TestSpace-]ButtonReferenceSource Home</pageTitle>
+            <storageFormat>&lt;p&gt;&lt;ac:structured-macro ac:macro-id=&quot;a03c074e-e6f0-4668-b155-95755afb99f0&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;buttonReferenceTestPage__tag__&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;buttonReferenceSameSpace&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;target-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;target&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/p&gt;</storageFormat>
+            <children>noCopySourcePage</children>
+            <children>buttonReferenceTestPage__tag__</children>
+            <children>target</children>
+            <pagePermissions/>
+            <isHomePage>true</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>noCopySourcePage</pageTitle>
+            <storageFormat></storageFormat>
+            <pagePermissions/>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>buttonReferenceTestPage__tag__</pageTitle>
+            <storageFormat>&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;ac:structured-macro ac:macro-id=&quot;0519dcd7-2e00-476a-bc5f-fa691980db71&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;@self&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;@self, targetEmpty&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/td&gt;&lt;td&gt;&lt;ac:structured-macro ac:macro-id=&quot;7eb006a9-60e2-460d-aa6a-a07242e9a6ce&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;@self&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;@self, targetExternal&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;target-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;externalPage__tag__&quot; ri:space-key=&quot;SeleniumButtonReferenceExternal&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/td&gt;&lt;td&gt;&lt;ac:structured-macro ac:macro-id=&quot;fcf15882-6453-4863-b157-0a8c18ccf7a5&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;@self&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;@self, targetNoCopyPage&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;target-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;noCopySourcePage&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/td&gt;&lt;td&gt;&lt;ac:structured-macro ac:macro-id=&quot;58a32cdb-828c-4496-b490-4fe5eb1d1656&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;@self&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;@self, targetSubPage&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;target-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;subPage__tag__&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/td&gt;&lt;td&gt;&lt;ac:structured-macro ac:macro-id=&quot;ad548981-bc16-4311-98b2-5b2d434354ba&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link /&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;@self(ausgeschrieben), targetEmpty&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;ac:structured-macro ac:macro-id=&quot;a87498f1-a1b1-466f-af06-7a71871ff804&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;externalPage__tag__&quot; ri:space-key=&quot;SeleniumButtonReferenceExternal&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;external, targetEmpty&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/td&gt;&lt;td&gt;&lt;ac:structured-macro ac:macro-id=&quot;9942d7fa-df6d-4ee5-ba7b-1066b0a0e59a&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;externalPage__tag__&quot; ri:space-key=&quot;SeleniumButtonReferenceExternal&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;external, targetExternal&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;target-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;externalPage__tag__&quot; ri:space-key=&quot;SeleniumButtonReferenceExternal&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/td&gt;&lt;td&gt;&lt;ac:structured-macro ac:macro-id=&quot;6b217160-03d8-4ced-a502-211d68044ea9&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;externalPage__tag__&quot; ri:space-key=&quot;SeleniumButtonReferenceExternal&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;external, targetNoCopyPage&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;target-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;noCopySourcePage&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/td&gt;&lt;td&gt;&lt;ac:structured-macro ac:macro-id=&quot;5d6f3b06-9bfa-438b-9bbf-7ee956950a9a&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;externalPage__tag__&quot; ri:space-key=&quot;SeleniumButtonReferenceExternal&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;external, targetSubPage&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;target-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;subPage__tag__&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;ac:structured-macro ac:macro-id=&quot;4cb7fee0-14b0-42d7-a68f-a8a63aea9ab6&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;noCopySourcePage&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;noCopyPage, targetEmpty&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/td&gt;&lt;td&gt;&lt;ac:structured-macro ac:macro-id=&quot;4d0b96d6-4097-4d85-a98f-4730be9ed282&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;noCopySourcePage&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;noCopyPage, targetExternal&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;target-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;externalPage__tag__&quot; ri:space-key=&quot;SeleniumButtonReferenceExternal&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/td&gt;&lt;td&gt;&lt;ac:structured-macro ac:macro-id=&quot;bb708335-a825-4c53-8096-804af4a44b04&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;noCopySourcePage&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;noCopyPage, targetNoCopyPage&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;target-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;noCopySourcePage&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/td&gt;&lt;td&gt;&lt;ac:structured-macro ac:macro-id=&quot;1e6f75db-5210-4c7d-93f8-e756c280f3f5&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;noCopySourcePage&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;noCopyPage, targetSubPage&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;target-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;subPage__tag__&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;ac:structured-macro ac:macro-id=&quot;5c93b074-ab31-49fe-b5f1-d8263c4aa4a0&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;subPage__tag__&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;subpage, targetEmpty&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/td&gt;&lt;td&gt;&lt;ac:structured-macro ac:macro-id=&quot;f6498b42-4e80-426b-932f-2a2441f39c5a&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;subPage__tag__&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;subPage, targetExternal&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;target-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;externalPage__tag__&quot; ri:space-key=&quot;SeleniumButtonReferenceExternal&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/td&gt;&lt;td&gt;&lt;ac:structured-macro ac:macro-id=&quot;7bfea1fa-fc0d-48c8-a099-d37c7d662c56&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;subPage__tag__&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;subPage, targetNoCopyPage&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;target-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;noCopyPage__titleTag1__&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/td&gt;&lt;td&gt;&lt;ac:structured-macro ac:macro-id=&quot;227c52b1-203c-4444-8290-40277c37079e&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;subPage__tag__&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;subPage, targetSubPage&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;target-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;subPage__tag__&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</storageFormat>
+            <children>subPage__tag__</children>
+            <pagePermissions/>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>subPage__tag__</pageTitle>
+            <storageFormat></storageFormat>
+            <pagePermissions/>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>target</pageTitle>
+            <storageFormat></storageFormat>
+            <children>buttonReferenceTestPage1</children>
+            <pagePermissions/>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>buttonReferenceTestPage1</pageTitle>
+            <storageFormat>&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;ac:structured-macro ac:macro-id=&quot;62c53c17-fc88-4869-b7f9-41efed87571f&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link /&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;@self, targetEmpty&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/td&gt;&lt;td&gt;&lt;ac:structured-macro ac:macro-id=&quot;1e448a11-2f0f-41a1-ab4d-a45456431c48&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link /&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;@self, targetExternal&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;target-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;externalPage__tag__&quot; ri:space-key=&quot;SeleniumButtonReferenceExternal&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/td&gt;&lt;td&gt;&lt;ac:structured-macro ac:macro-id=&quot;0ffcf98f-24d2-45f8-8447-54fa6fd4435c&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link /&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;@self, targetNoCopyPage&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;target-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;noCopySourcePage&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/td&gt;&lt;td&gt;&lt;ac:structured-macro ac:macro-id=&quot;21f5a267-b80d-47e9-a298-d13fc90f739c&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link /&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;@self, targetSubPage&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;target-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;subPage1&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/td&gt;&lt;td&gt;&lt;ac:structured-macro ac:macro-id=&quot;d5a88477-481b-4ad9-9e89-82f6cd358533&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link /&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;@self(ausgeschrieben), targetEmpty&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;ac:structured-macro ac:macro-id=&quot;19ffd731-44c3-4022-a8ff-b13f31e0f7d9&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;externalPage__tag__&quot; ri:space-key=&quot;SeleniumButtonReferenceExternal&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;external, targetEmpty&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/td&gt;&lt;td&gt;&lt;ac:structured-macro ac:macro-id=&quot;6ce46053-4e25-4cfb-9705-c5db6a949987&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;externalPage__tag__&quot; ri:space-key=&quot;SeleniumButtonReferenceExternal&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;external, targetExternal&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;target-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;externalPage__tag__&quot; ri:space-key=&quot;SeleniumButtonReferenceExternal&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/td&gt;&lt;td&gt;&lt;ac:structured-macro ac:macro-id=&quot;d15b27a3-b0af-4eae-bc2f-e10bcc65ed57&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;externalPage__tag__&quot; ri:space-key=&quot;SeleniumButtonReferenceExternal&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;external, targetNoCopyPage&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;target-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;noCopySourcePage&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/td&gt;&lt;td&gt;&lt;ac:structured-macro ac:macro-id=&quot;8def0b71-9eaa-464a-856b-c3b2c0b27e5c&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;externalPage__tag__&quot; ri:space-key=&quot;SeleniumButtonReferenceExternal&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;external, targetSubPage&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;target-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;subPage1&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;ac:structured-macro ac:macro-id=&quot;5a37d645-0864-4acb-a79e-ddb68239f04f&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;noCopySourcePage&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;noCopyPage, targetEmpty&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/td&gt;&lt;td&gt;&lt;ac:structured-macro ac:macro-id=&quot;4d77ff0b-046b-41f4-8182-770a3f8a4b92&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;noCopySourcePage&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;noCopyPage, targetExternal&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;target-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;externalPage__tag__&quot; ri:space-key=&quot;SeleniumButtonReferenceExternal&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/td&gt;&lt;td&gt;&lt;ac:structured-macro ac:macro-id=&quot;eeb07449-856a-42ff-b8cd-7216607f25b2&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;noCopySourcePage&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;noCopyPage, targetNoCopyPage&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;target-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;noCopySourcePage&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/td&gt;&lt;td&gt;&lt;ac:structured-macro ac:macro-id=&quot;a44b3e37-2505-480d-83ab-923fa2d35202&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;noCopySourcePage&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;noCopyPage, targetSubPage&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;target-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;subPage1&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;ac:structured-macro ac:macro-id=&quot;d6fb222e-ead5-4090-8d64-8f4ff338fc29&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;subPage1&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;subpage, targetEmpty&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/td&gt;&lt;td&gt;&lt;ac:structured-macro ac:macro-id=&quot;8e81d894-30de-4d2e-9873-3c246aca0948&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;subPage1&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;subPage, targetExternal&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;target-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;externalPage__tag__&quot; ri:space-key=&quot;SeleniumButtonReferenceExternal&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/td&gt;&lt;td&gt;&lt;ac:structured-macro ac:macro-id=&quot;9b08c1ac-08f6-4523-a325-c752797d2cd7&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;subPage1&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;subPage, targetNoCopyPage&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;target-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;noCopyPage__titleTag1__&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/td&gt;&lt;td&gt;&lt;ac:structured-macro ac:macro-id=&quot;ae63b17e-8556-4d16-af95-f56b7b67db5e&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;subPage1&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;subPage, targetSubPage&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;target-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;subPage1&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</storageFormat>
+            <children>subPage1</children>
+            <pagePermissions/>
+            <pagePosition>-1</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>subPage1</pageTitle>
+            <storageFormat></storageFormat>
+            <pagePermissions/>
+            <pagePosition>0</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+    </testSpaces>
+    <testSpaces>
+        <spaceName>[-TestSpace-]buttonShowConditionsTest</spaceName>
+        <spaceKey>PtcMacros</spaceKey>
+        <createdBy>admin</createdBy>
+        <spacePermissions>
+            <groups>
+                <name>confluence-users</name>
+                <spaceRestrictions>
+                    <all_view>true</all_view>
+                    <pages_add>true</pages_add>
+                    <pages_delete>false</pages_delete>
+                    <blog_add>true</blog_add>
+                    <blog_delete>false</blog_delete>
+                    <comments_add>true</comments_add>
+                    <comments_delete>false</comments_delete>
+                    <attachments_add>true</attachments_add>
+                    <attachments_delete>false</attachments_delete>
+                    <restrictions_addDelete>false</restrictions_addDelete>
+                    <mail_delete>false</mail_delete>
+                    <space_export>true</space_export>
+                    <space_admin>true</space_admin>
+                </spaceRestrictions>
+            </groups>
+            <users>
+                <name>admin</name>
+                <spaceRestrictions>
+                    <all_view>true</all_view>
+                    <pages_add>true</pages_add>
+                    <pages_delete>true</pages_delete>
+                    <blog_add>true</blog_add>
+                    <blog_delete>true</blog_delete>
+                    <comments_add>true</comments_add>
+                    <comments_delete>true</comments_delete>
+                    <attachments_add>true</attachments_add>
+                    <attachments_delete>true</attachments_delete>
+                    <restrictions_addDelete>true</restrictions_addDelete>
+                    <mail_delete>true</mail_delete>
+                    <space_export>true</space_export>
+                    <space_admin>true</space_admin>
+                </spaceRestrictions>
+            </users>
+            <anonymousAccess>
+                <all_view>false</all_view>
+                <pages_add>false</pages_add>
+                <pages_delete>false</pages_delete>
+                <blog_add>false</blog_add>
+                <blog_delete>false</blog_delete>
+                <comments_add>false</comments_add>
+                <comments_delete>false</comments_delete>
+                <attachments_add>false</attachments_add>
+                <attachments_delete>false</attachments_delete>
+                <restrictions_addDelete>false</restrictions_addDelete>
+                <mail_delete>false</mail_delete>
+                <space_export>false</space_export>
+                <space_admin>false</space_admin>
+            </anonymousAccess>
+        </spacePermissions>
+        <testPages>
+            <pageTitle>[-TestSpace-]buttonShowConditionsTest Home</pageTitle>
+            <storageFormat>
+&lt;ac:layout&gt;&lt;ac:layout-section ac:type=&quot;single&quot;&gt;&lt;ac:layout-cell&gt;
+&lt;ac:structured-macro ac:macro-id=&quot;8f9ca7c8-4188-4f53-8791-d21ace64638a&quot; ac:name=&quot;tip&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;title&quot;&gt;Welcome to your new space!&lt;/ac:parameter&gt;&lt;ac:rich-text-body&gt;
+                    &lt;p&gt;Confluence spaces are great for sharing content and news with your team. This is your home page. Right now it shows recent space activity, but you can customize this page in anyway you like.&lt;/p&gt;
+                &lt;/ac:rich-text-body&gt;&lt;/ac:structured-macro&gt;&lt;h2&gt;Complete these tasks to get started&lt;/h2&gt;&lt;ac:task-list&gt;
+&lt;ac:task&gt;
+&lt;ac:task-id&gt;3149&lt;/ac:task-id&gt;
+&lt;ac:task-status&gt;incomplete&lt;/ac:task-status&gt;
+&lt;ac:task-body&gt;
+                        &lt;strong&gt;Edit this home page&lt;/strong&gt; - Click &lt;em&gt;Edit&lt;/em&gt; in the top right of this screen to customize your Space home page
+                    &lt;/ac:task-body&gt;
+&lt;/ac:task&gt;
+&lt;ac:task&gt;
+&lt;ac:task-id&gt;3150&lt;/ac:task-id&gt;
+&lt;ac:task-status&gt;incomplete&lt;/ac:task-status&gt;
+&lt;ac:task-body&gt;
+                        &lt;strong&gt;Create your first page&lt;/strong&gt; - Click the &lt;em&gt;Create&lt;/em&gt; button in the header to get started
+                    &lt;/ac:task-body&gt;
+&lt;/ac:task&gt;
+&lt;ac:task&gt;
+&lt;ac:task-id&gt;3151&lt;/ac:task-id&gt;
+&lt;ac:task-status&gt;incomplete&lt;/ac:task-status&gt;
+&lt;ac:task-body&gt;
+                        &lt;strong&gt;Brand your Space&lt;/strong&gt; - Click &lt;em&gt;Configure Sidebar&lt;/em&gt; in the left panel to update space details and logo
+                    &lt;/ac:task-body&gt;
+&lt;/ac:task&gt;
+&lt;ac:task&gt;
+&lt;ac:task-id&gt;3152&lt;/ac:task-id&gt;
+&lt;ac:task-status&gt;incomplete&lt;/ac:task-status&gt;
+&lt;ac:task-body&gt;
+                        &lt;strong&gt;Set permissions&lt;/strong&gt; - Click &lt;em&gt;Space Tools&lt;/em&gt; in the left sidebar to update permissions and give others access
+                    &lt;/ac:task-body&gt;
+&lt;/ac:task&gt;
+&lt;/ac:task-list&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/ac:layout-cell&gt;&lt;/ac:layout-section&gt;&lt;ac:layout-section ac:type=&quot;two_equal&quot;&gt;&lt;ac:layout-cell&gt;
+&lt;h2&gt;Recent space activity&lt;/h2&gt;&lt;p&gt;
+                    &lt;ac:structured-macro ac:macro-id=&quot;cf733136-1813-4815-a827-96ec98cff7f5&quot; ac:name=&quot;recently-updated&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;types&quot;&gt;page, comment, blogpost&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;max&quot;&gt;5&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;hideHeading&quot;&gt;true&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;theme&quot;&gt;social&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;
+                &lt;/p&gt;&lt;/ac:layout-cell&gt;&lt;ac:layout-cell&gt;
+&lt;h2&gt;Space contributors&lt;/h2&gt;&lt;p&gt;
+                    &lt;ac:structured-macro ac:macro-id=&quot;7ef2815a-e7cb-4e10-9bc4-0201589eb4d7&quot; ac:name=&quot;contributors&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;mode&quot;&gt;list&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;scope&quot;&gt;descendants&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;limit&quot;&gt;5&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;showLastTime&quot;&gt;true&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;order&quot;&gt;update&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;
+                &lt;/p&gt;&lt;/ac:layout-cell&gt;&lt;/ac:layout-section&gt;&lt;ac:layout-section ac:type=&quot;single&quot;&gt;&lt;ac:layout-cell&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/ac:layout-cell&gt;&lt;/ac:layout-section&gt;&lt;/ac:layout&gt;</storageFormat>
+            <children>Button Test user&amp;admin in Group</children>
+            <children>Button Test user in Group</children>
+            <children>Button Test admin in Group</children>
+            <children>Button Test user is not in group</children>
+            <children>Button Test permitted groups empty</children>
+            <children>Button Test user is in one of the groups</children>
+            <children>Button Test user is not in groups</children>
+            <children>Button Test user in multiple Groups</children>
+            <children>noViewPermissionPage</children>
+            <children>sourcepagetest</children>
+            <children>Button Test target space add permission</children>
+            <children>Custom Plugin Permission</children>
+            <children>custompermissionallowed</children>
+            <children>custom plugin permission not allowed</children>
+            <pagePermissions/>
+            <isHomePage>true</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>Button Test user&amp;admin in Group</pageTitle>
+            <storageFormat>&lt;p&gt;&lt;ac:structured-macro ac:macro-id=&quot;267c7555-3241-4b79-90c2-48271df15f87&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;@self&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;User&amp;amp;AdminInGroup&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;permitted-groups&quot;&gt;[-testgroup-]adminanduser&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/p&gt;</storageFormat>
+            <pagePermissions/>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>Button Test user in Group</pageTitle>
+            <storageFormat>&lt;p&gt;&lt;ac:structured-macro ac:macro-id=&quot;7729a26e-6a99-4775-a2e3-fb321fd0d98e&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;@self&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;UserInGroup&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;permitted-groups&quot;&gt;[-testgroup-]user&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/p&gt;</storageFormat>
+            <pagePermissions/>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>Button Test admin in Group</pageTitle>
+            <storageFormat>&lt;p&gt;&lt;ac:structured-macro ac:macro-id=&quot;199f4f57-b564-4f51-b7aa-a60c7d560eb4&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;@self&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-display-type&quot;&gt;true&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;AdminInGroup&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;permitted-groups&quot;&gt;[-testgroup-]admin&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;</storageFormat>
+            <pagePermissions/>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>Button Test user is not in group</pageTitle>
+            <storageFormat>&lt;p&gt;&lt;ac:structured-macro ac:macro-id=&quot;e111e9a9-68df-42b2-b5f7-91956cbe249a&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;@self&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;EmptyGroup&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;permitted-groups&quot;&gt;[-testgroup-]emptygroup&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;</storageFormat>
+            <pagePermissions/>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>Button Test permitted groups empty</pageTitle>
+            <storageFormat>&lt;p&gt;&lt;ac:structured-macro ac:macro-id=&quot;1e3ad2e2-7ec9-4f1c-9f01-54b9da672a2a&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;@self&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;permitted groups empty&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/p&gt;</storageFormat>
+            <pagePermissions/>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>Button Test user is in one of the groups</pageTitle>
+            <storageFormat>&lt;p&gt;&lt;ac:structured-macro ac:macro-id=&quot;c7367dd9-b34b-4903-891e-235bb21b2130&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;@self&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;userisinoneofthegroups&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;permitted-groups&quot;&gt;[-testgroup-]user,[-testgroup-]admin,[-testgroup-]emptygroup&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/p&gt;</storageFormat>
+            <pagePermissions/>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>Button Test user is not in groups</pageTitle>
+            <storageFormat>&lt;p&gt;&lt;ac:structured-macro ac:macro-id=&quot;b620dddf-d5ae-4661-ba81-697baaa0b4e7&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;@self&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;userisnotingroups&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;permitted-groups&quot;&gt;[-testgroup-]admin,[-testgroup-]group2,[-testgroup-]emptygroup&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/p&gt;</storageFormat>
+            <pagePermissions/>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>Button Test user in multiple Groups</pageTitle>
+            <storageFormat>&lt;p&gt;&lt;ac:structured-macro ac:macro-id=&quot;113f1541-ff8f-4d05-9aeb-767c3f70c25d&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;@self&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;user is in multiple groups&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;permitted-groups&quot;&gt;[-testgroup-]user,confluence-users&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/p&gt;</storageFormat>
+            <pagePermissions/>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>noViewPermissionPage</pageTitle>
+            <storageFormat></storageFormat>
+            <pagePermissions>
+                <usersCanView>admin</usersCanView>
+                <usersCanEdit>admin</usersCanEdit>
+            </pagePermissions>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>sourcepagetest</pageTitle>
+            <storageFormat>&lt;p&gt;&lt;ac:structured-macro ac:macro-id=&quot;e59bc4e9-d4e9-4edb-b90d-236864ff104b&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;noViewPermissionPage&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;noviewpermission&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/p&gt;</storageFormat>
+            <pagePermissions/>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>Button Test target space add permission</pageTitle>
+            <storageFormat>&lt;p&gt;&lt;ac:structured-macro ac:macro-id=&quot;785cf1c1-fc85-4627-a371-75eb12ce1241&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;@self&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;targetSpaceAddPermission&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;target-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;[-TestSpace-]TargetPageShowCondition Home&quot; ri:space-key=&quot;seleniumTargetSpaceAddPermission&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/p&gt;</storageFormat>
+            <pagePermissions/>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>Custom Plugin Permission</pageTitle>
+            <storageFormat></storageFormat>
+            <pagePermissions/>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>custompermissionallowed</pageTitle>
+            <storageFormat>&lt;p&gt;&lt;ac:structured-macro ac:macro-id=&quot;c500766b-f664-4452-aeae-4a28f8490b40&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;[-TestSpace-]customPermittedSpace Home&quot; ri:space-key=&quot;seleniumCustomPermittedSpace&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;custompermissionallowed&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/p&gt;</storageFormat>
+            <pagePermissions/>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>custom plugin permission not allowed</pageTitle>
+            <storageFormat>&lt;p&gt;&lt;ac:structured-macro ac:macro-id=&quot;43587186-9000-41be-a527-36f84b3e8fe0&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;[-TestSpace-]TargetPageShowCondition Home&quot; ri:space-key=&quot;seleniumTargetSpaceAddPermission&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;custompluginnotallowed&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/p&gt;</storageFormat>
+            <pagePermissions/>
+            <isHomePage>false</isHomePage>
+        </testPages>
+    </testSpaces>
+    <testSpaces>
+        <spaceName>[-TestSpace-]CopyPageTreeMenuExternal</spaceName>
+        <spaceKey>SeleniumCopyPageTreeMenuExternal</spaceKey>
+        <createdBy>admin</createdBy>
+        <spacePermissions>
+            <groups>
+                <name>confluence-users</name>
+                <spaceRestrictions>
+                    <all_view>true</all_view>
+                    <pages_add>true</pages_add>
+                    <pages_delete>false</pages_delete>
+                    <blog_add>true</blog_add>
+                    <blog_delete>false</blog_delete>
+                    <comments_add>true</comments_add>
+                    <comments_delete>false</comments_delete>
+                    <attachments_add>true</attachments_add>
+                    <attachments_delete>false</attachments_delete>
+                    <restrictions_addDelete>false</restrictions_addDelete>
+                    <mail_delete>false</mail_delete>
+                    <space_export>true</space_export>
+                    <space_admin>true</space_admin>
+                </spaceRestrictions>
+            </groups>
+            <users>
+                <name>admin</name>
+                <spaceRestrictions>
+                    <all_view>true</all_view>
+                    <pages_add>true</pages_add>
+                    <pages_delete>true</pages_delete>
+                    <blog_add>true</blog_add>
+                    <blog_delete>true</blog_delete>
+                    <comments_add>true</comments_add>
+                    <comments_delete>true</comments_delete>
+                    <attachments_add>true</attachments_add>
+                    <attachments_delete>true</attachments_delete>
+                    <restrictions_addDelete>true</restrictions_addDelete>
+                    <mail_delete>true</mail_delete>
+                    <space_export>true</space_export>
+                    <space_admin>true</space_admin>
+                </spaceRestrictions>
+            </users>
+            <anonymousAccess>
+                <all_view>false</all_view>
+                <pages_add>false</pages_add>
+                <pages_delete>false</pages_delete>
+                <blog_add>false</blog_add>
+                <blog_delete>false</blog_delete>
+                <comments_add>false</comments_add>
+                <comments_delete>false</comments_delete>
+                <attachments_add>false</attachments_add>
+                <attachments_delete>false</attachments_delete>
+                <restrictions_addDelete>false</restrictions_addDelete>
+                <mail_delete>false</mail_delete>
+                <space_export>false</space_export>
+                <space_admin>false</space_admin>
+            </anonymousAccess>
+        </spacePermissions>
+        <testPages>
+            <pageTitle>[-TestSpace-]CopyPageTreeMenuExternal Home</pageTitle>
+            <storageFormat>
+&lt;ac:layout&gt;&lt;ac:layout-section ac:type=&quot;single&quot;&gt;&lt;ac:layout-cell&gt;
+&lt;ac:structured-macro ac:macro-id=&quot;117a1e1b-4af2-42c3-b40d-605f090a3b56&quot; ac:name=&quot;tip&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;title&quot;&gt;Welcome to your new space!&lt;/ac:parameter&gt;&lt;ac:rich-text-body&gt;
+                    &lt;p&gt;Confluence spaces are great for sharing content and news with your team. This is your home page. Right now it shows recent space activity, but you can customize this page in anyway you like.&lt;/p&gt;
+                &lt;/ac:rich-text-body&gt;&lt;/ac:structured-macro&gt;&lt;h2&gt;Complete these tasks to get started&lt;/h2&gt;&lt;ac:task-list&gt;
+&lt;ac:task&gt;
+&lt;ac:task-id&gt;3053&lt;/ac:task-id&gt;
+&lt;ac:task-status&gt;incomplete&lt;/ac:task-status&gt;
+&lt;ac:task-body&gt;
+                        &lt;strong&gt;Edit this home page&lt;/strong&gt; - Click &lt;em&gt;Edit&lt;/em&gt; in the top right of this screen to customize your Space home page
+                    &lt;/ac:task-body&gt;
+&lt;/ac:task&gt;
+&lt;ac:task&gt;
+&lt;ac:task-id&gt;3054&lt;/ac:task-id&gt;
+&lt;ac:task-status&gt;incomplete&lt;/ac:task-status&gt;
+&lt;ac:task-body&gt;
+                        &lt;strong&gt;Create your first page&lt;/strong&gt; - Click the &lt;em&gt;Create&lt;/em&gt; button in the header to get started
+                    &lt;/ac:task-body&gt;
+&lt;/ac:task&gt;
+&lt;ac:task&gt;
+&lt;ac:task-id&gt;3055&lt;/ac:task-id&gt;
+&lt;ac:task-status&gt;incomplete&lt;/ac:task-status&gt;
+&lt;ac:task-body&gt;
+                        &lt;strong&gt;Brand your Space&lt;/strong&gt; - Click &lt;em&gt;Configure Sidebar&lt;/em&gt; in the left panel to update space details and logo
+                    &lt;/ac:task-body&gt;
+&lt;/ac:task&gt;
+&lt;ac:task&gt;
+&lt;ac:task-id&gt;3056&lt;/ac:task-id&gt;
+&lt;ac:task-status&gt;incomplete&lt;/ac:task-status&gt;
+&lt;ac:task-body&gt;
+                        &lt;strong&gt;Set permissions&lt;/strong&gt; - Click &lt;em&gt;Space Tools&lt;/em&gt; in the left sidebar to update permissions and give others access
+                    &lt;/ac:task-body&gt;
+&lt;/ac:task&gt;
+&lt;/ac:task-list&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/ac:layout-cell&gt;&lt;/ac:layout-section&gt;&lt;ac:layout-section ac:type=&quot;two_equal&quot;&gt;&lt;ac:layout-cell&gt;
+&lt;h2&gt;Recent space activity&lt;/h2&gt;&lt;p&gt;
+                    &lt;ac:structured-macro ac:macro-id=&quot;0ba4d502-2196-4f80-af21-cba64837d74d&quot; ac:name=&quot;recently-updated&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;types&quot;&gt;page, comment, blogpost&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;max&quot;&gt;5&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;hideHeading&quot;&gt;true&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;theme&quot;&gt;social&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;
+                &lt;/p&gt;&lt;/ac:layout-cell&gt;&lt;ac:layout-cell&gt;
+&lt;h2&gt;Space contributors&lt;/h2&gt;&lt;p&gt;
+                    &lt;ac:structured-macro ac:macro-id=&quot;2b09fe88-3529-49d5-b1ea-4e43d5607a9f&quot; ac:name=&quot;contributors&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;mode&quot;&gt;list&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;scope&quot;&gt;descendants&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;limit&quot;&gt;5&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;showLastTime&quot;&gt;true&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;order&quot;&gt;update&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;
+                &lt;/p&gt;&lt;/ac:layout-cell&gt;&lt;/ac:layout-section&gt;&lt;ac:layout-section ac:type=&quot;single&quot;&gt;&lt;ac:layout-cell&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/ac:layout-cell&gt;&lt;/ac:layout-section&gt;&lt;/ac:layout&gt;</storageFormat>
+            <children>testPage2</children>
+            <children>externalTargetSpaceTest</children>
+            <children>Copy of externalTargetSpaceTest</children>
+            <pagePermissions/>
+            <isHomePage>true</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>testPage2</pageTitle>
+            <storageFormat></storageFormat>
+            <children>externalTargetPageTest</children>
+            <children>Copy of externalTargetPageTest</children>
+            <pagePermissions/>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>externalTargetPageTest</pageTitle>
+            <storageFormat></storageFormat>
+            <pagePermissions/>
+            <pagePosition>-1</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>externalTargetSpaceTest</pageTitle>
+            <storageFormat></storageFormat>
+            <pagePermissions/>
+            <pagePosition>0</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>Copy of externalTargetPageTest</pageTitle>
+            <storageFormat></storageFormat>
+            <pagePermissions/>
+            <pagePosition>0</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>Copy of externalTargetSpaceTest</pageTitle>
+            <storageFormat></storageFormat>
+            <pagePermissions/>
+            <pagePosition>1</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+    </testSpaces>
+    <testSpaces>
+        <spaceName>[-TestSpace-]CopyPageTreeMenuSource</spaceName>
+        <spaceKey>SeleniumCopyPageTreeMenu</spaceKey>
+        <createdBy>admin</createdBy>
+        <spacePermissions>
+            <groups>
+                <name>confluence-users</name>
+                <spaceRestrictions>
+                    <all_view>true</all_view>
+                    <pages_add>true</pages_add>
+                    <pages_delete>false</pages_delete>
+                    <blog_add>true</blog_add>
+                    <blog_delete>false</blog_delete>
+                    <comments_add>true</comments_add>
+                    <comments_delete>false</comments_delete>
+                    <attachments_add>true</attachments_add>
+                    <attachments_delete>false</attachments_delete>
+                    <restrictions_addDelete>false</restrictions_addDelete>
+                    <mail_delete>false</mail_delete>
+                    <space_export>true</space_export>
+                    <space_admin>true</space_admin>
+                </spaceRestrictions>
+            </groups>
+            <users>
+                <name>admin</name>
+                <spaceRestrictions>
+                    <all_view>true</all_view>
+                    <pages_add>true</pages_add>
+                    <pages_delete>true</pages_delete>
+                    <blog_add>true</blog_add>
+                    <blog_delete>true</blog_delete>
+                    <comments_add>true</comments_add>
+                    <comments_delete>true</comments_delete>
+                    <attachments_add>true</attachments_add>
+                    <attachments_delete>true</attachments_delete>
+                    <restrictions_addDelete>true</restrictions_addDelete>
+                    <mail_delete>true</mail_delete>
+                    <space_export>true</space_export>
+                    <space_admin>true</space_admin>
+                </spaceRestrictions>
+            </users>
+            <anonymousAccess>
+                <all_view>false</all_view>
+                <pages_add>false</pages_add>
+                <pages_delete>false</pages_delete>
+                <blog_add>false</blog_add>
+                <blog_delete>false</blog_delete>
+                <comments_add>false</comments_add>
+                <comments_delete>false</comments_delete>
+                <attachments_add>false</attachments_add>
+                <attachments_delete>false</attachments_delete>
+                <restrictions_addDelete>false</restrictions_addDelete>
+                <mail_delete>false</mail_delete>
+                <space_export>false</space_export>
+                <space_admin>false</space_admin>
+            </anonymousAccess>
+        </spacePermissions>
+        <testPages>
+            <pageTitle>[-TestSpace-]CopyPageTreeMenuSource Home</pageTitle>
+            <storageFormat>
+&lt;ac:layout&gt;&lt;ac:layout-section ac:type=&quot;single&quot;&gt;&lt;ac:layout-cell&gt;
+&lt;ac:structured-macro ac:macro-id=&quot;314b2041-4368-435f-8b5e-eb1fc4634a9e&quot; ac:name=&quot;tip&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;title&quot;&gt;Welcome to your new space!&lt;/ac:parameter&gt;&lt;ac:rich-text-body&gt;
+                    &lt;p&gt;Confluence spaces are great for sharing content and news with your team. This is your home page. Right now it shows recent space activity, but you can customize this page in anyway you like.&lt;/p&gt;
+                &lt;/ac:rich-text-body&gt;&lt;/ac:structured-macro&gt;&lt;h2&gt;Complete these tasks to get started&lt;/h2&gt;&lt;ac:task-list&gt;
+&lt;ac:task&gt;
+&lt;ac:task-id&gt;3049&lt;/ac:task-id&gt;
+&lt;ac:task-status&gt;incomplete&lt;/ac:task-status&gt;
+&lt;ac:task-body&gt;
+                        &lt;strong&gt;Edit this home page&lt;/strong&gt; - Click &lt;em&gt;Edit&lt;/em&gt; in the top right of this screen to customize your Space home page
+                    &lt;/ac:task-body&gt;
+&lt;/ac:task&gt;
+&lt;ac:task&gt;
+&lt;ac:task-id&gt;3050&lt;/ac:task-id&gt;
+&lt;ac:task-status&gt;incomplete&lt;/ac:task-status&gt;
+&lt;ac:task-body&gt;
+                        &lt;strong&gt;Create your first page&lt;/strong&gt; - Click the &lt;em&gt;Create&lt;/em&gt; button in the header to get started
+                    &lt;/ac:task-body&gt;
+&lt;/ac:task&gt;
+&lt;ac:task&gt;
+&lt;ac:task-id&gt;3051&lt;/ac:task-id&gt;
+&lt;ac:task-status&gt;incomplete&lt;/ac:task-status&gt;
+&lt;ac:task-body&gt;
+                        &lt;strong&gt;Brand your Space&lt;/strong&gt; - Click &lt;em&gt;Configure Sidebar&lt;/em&gt; in the left panel to update space details and logo
+                    &lt;/ac:task-body&gt;
+&lt;/ac:task&gt;
+&lt;ac:task&gt;
+&lt;ac:task-id&gt;3052&lt;/ac:task-id&gt;
+&lt;ac:task-status&gt;incomplete&lt;/ac:task-status&gt;
+&lt;ac:task-body&gt;
+                        &lt;strong&gt;Set permissions&lt;/strong&gt; - Click &lt;em&gt;Space Tools&lt;/em&gt; in the left sidebar to update permissions and give others access
+                    &lt;/ac:task-body&gt;
+&lt;/ac:task&gt;
+&lt;/ac:task-list&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/ac:layout-cell&gt;&lt;/ac:layout-section&gt;&lt;ac:layout-section ac:type=&quot;two_equal&quot;&gt;&lt;ac:layout-cell&gt;
+&lt;h2&gt;Recent space activity&lt;/h2&gt;&lt;p&gt;
+                    &lt;ac:structured-macro ac:macro-id=&quot;7f035ab2-aea0-4938-a517-ec22d607919e&quot; ac:name=&quot;recently-updated&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;types&quot;&gt;page, comment, blogpost&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;max&quot;&gt;5&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;hideHeading&quot;&gt;true&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;theme&quot;&gt;social&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;
+                &lt;/p&gt;&lt;/ac:layout-cell&gt;&lt;ac:layout-cell&gt;
+&lt;h2&gt;Space contributors&lt;/h2&gt;&lt;p&gt;
+                    &lt;ac:structured-macro ac:macro-id=&quot;07586648-5edf-48bb-8a0c-62681af86a12&quot; ac:name=&quot;contributors&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;mode&quot;&gt;list&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;scope&quot;&gt;descendants&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;limit&quot;&gt;5&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;showLastTime&quot;&gt;true&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;order&quot;&gt;update&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;
+                &lt;/p&gt;&lt;/ac:layout-cell&gt;&lt;/ac:layout-section&gt;&lt;ac:layout-section ac:type=&quot;single&quot;&gt;&lt;ac:layout-cell&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/ac:layout-cell&gt;&lt;/ac:layout-section&gt;&lt;/ac:layout&gt;</storageFormat>
+            <children>targetSpaceTest</children>
+            <children>targetPageTest</children>
+            <children>externalTargetSpaceTest</children>
+            <children>externalTargetPageTest</children>
+            <children>pageTitlePrefixWithSpecialCharactersTest</children>
+            <children>pageTitlePrefixTest</children>
+            <children>errorHandlingTargetPageTest</children>
+            <children>targetPageEmptyTest</children>
+            <children>targetSpaceEmptyTest</children>
+            <children>tagInTitleIsNotReplacedTest __tag__</children>
+            <children>Copy of targetPageEmptyTest</children>
+            <children>newPrefixpageTitlePrefixTest</children>
+            <children>Copy of targetSpaceTest</children>
+            <pagePermissions/>
+            <isHomePage>true</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>targetSpaceTest</pageTitle>
+            <storageFormat></storageFormat>
+            <pagePermissions/>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>targetPageTest</pageTitle>
+            <storageFormat></storageFormat>
+            <children>Copy of targetPageTest</children>
+            <pagePermissions/>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>externalTargetSpaceTest</pageTitle>
+            <storageFormat></storageFormat>
+            <pagePermissions/>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>externalTargetPageTest</pageTitle>
+            <storageFormat></storageFormat>
+            <pagePermissions/>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>pageTitlePrefixWithSpecialCharactersTest</pageTitle>
+            <storageFormat></storageFormat>
+            <pagePermissions/>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>pageTitlePrefixTest</pageTitle>
+            <storageFormat></storageFormat>
+            <pagePermissions/>
+            <pagePosition>5</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>errorHandlingTargetPageTest</pageTitle>
+            <storageFormat></storageFormat>
+            <pagePermissions/>
+            <pagePosition>7</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>targetPageEmptyTest</pageTitle>
+            <storageFormat></storageFormat>
+            <pagePermissions/>
+            <pagePosition>8</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>targetSpaceEmptyTest</pageTitle>
+            <storageFormat></storageFormat>
+            <pagePermissions/>
+            <pagePosition>9</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>tagInTitleIsNotReplacedTest __tag__</pageTitle>
+            <storageFormat>&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;</storageFormat>
+            <pagePermissions/>
+            <pagePosition>10</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>Copy of targetPageTest</pageTitle>
+            <storageFormat></storageFormat>
+            <pagePermissions/>
+            <pagePosition>0</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>Copy of targetPageEmptyTest</pageTitle>
+            <storageFormat></storageFormat>
+            <pagePermissions/>
+            <pagePosition>9</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>newPrefixpageTitlePrefixTest</pageTitle>
+            <storageFormat></storageFormat>
+            <pagePermissions/>
+            <pagePosition>10</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>Copy of targetSpaceTest</pageTitle>
+            <storageFormat></storageFormat>
+            <pagePermissions/>
+            <pagePosition>11</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+    </testSpaces>
+    <testSpaces>
+        <spaceName>[-TestSpace-]CreatePageTreeMenuExternal</spaceName>
+        <spaceKey>SeleniumCreatePageTreeMenuExternal</spaceKey>
+        <createdBy>admin</createdBy>
+        <spacePermissions>
+            <groups>
+                <name>confluence-users</name>
+                <spaceRestrictions>
+                    <all_view>true</all_view>
+                    <pages_add>true</pages_add>
+                    <pages_delete>false</pages_delete>
+                    <blog_add>true</blog_add>
+                    <blog_delete>false</blog_delete>
+                    <comments_add>true</comments_add>
+                    <comments_delete>false</comments_delete>
+                    <attachments_add>true</attachments_add>
+                    <attachments_delete>false</attachments_delete>
+                    <restrictions_addDelete>false</restrictions_addDelete>
+                    <mail_delete>false</mail_delete>
+                    <space_export>true</space_export>
+                    <space_admin>true</space_admin>
+                </spaceRestrictions>
+            </groups>
+            <users>
+                <name>admin</name>
+                <spaceRestrictions>
+                    <all_view>true</all_view>
+                    <pages_add>true</pages_add>
+                    <pages_delete>true</pages_delete>
+                    <blog_add>true</blog_add>
+                    <blog_delete>true</blog_delete>
+                    <comments_add>true</comments_add>
+                    <comments_delete>true</comments_delete>
+                    <attachments_add>true</attachments_add>
+                    <attachments_delete>true</attachments_delete>
+                    <restrictions_addDelete>true</restrictions_addDelete>
+                    <mail_delete>true</mail_delete>
+                    <space_export>true</space_export>
+                    <space_admin>true</space_admin>
+                </spaceRestrictions>
+            </users>
+            <anonymousAccess>
+                <all_view>false</all_view>
+                <pages_add>false</pages_add>
+                <pages_delete>false</pages_delete>
+                <blog_add>false</blog_add>
+                <blog_delete>false</blog_delete>
+                <comments_add>false</comments_add>
+                <comments_delete>false</comments_delete>
+                <attachments_add>false</attachments_add>
+                <attachments_delete>false</attachments_delete>
+                <restrictions_addDelete>false</restrictions_addDelete>
+                <mail_delete>false</mail_delete>
+                <space_export>false</space_export>
+                <space_admin>false</space_admin>
+            </anonymousAccess>
+        </spacePermissions>
+        <testPages>
+            <pageTitle>[-TestSpace-]CreatePageTreeMenuExternal Home</pageTitle>
+            <storageFormat>
+&lt;ac:layout&gt;&lt;ac:layout-section ac:type=&quot;single&quot;&gt;&lt;ac:layout-cell&gt;
+&lt;ac:structured-macro ac:macro-id=&quot;26aa659d-9f7b-4e34-a514-bae3c3df8795&quot; ac:name=&quot;tip&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;title&quot;&gt;Welcome to your new space!&lt;/ac:parameter&gt;&lt;ac:rich-text-body&gt;
+                    &lt;p&gt;Confluence spaces are great for sharing content and news with your team. This is your home page. Right now it shows recent space activity, but you can customize this page in anyway you like.&lt;/p&gt;
+                &lt;/ac:rich-text-body&gt;&lt;/ac:structured-macro&gt;&lt;h2&gt;Complete these tasks to get started&lt;/h2&gt;&lt;ac:task-list&gt;
+&lt;ac:task&gt;
+&lt;ac:task-id&gt;3009&lt;/ac:task-id&gt;
+&lt;ac:task-status&gt;incomplete&lt;/ac:task-status&gt;
+&lt;ac:task-body&gt;
+                        &lt;strong&gt;Edit this home page&lt;/strong&gt; - Click &lt;em&gt;Edit&lt;/em&gt; in the top right of this screen to customize your Space home page
+                    &lt;/ac:task-body&gt;
+&lt;/ac:task&gt;
+&lt;ac:task&gt;
+&lt;ac:task-id&gt;3010&lt;/ac:task-id&gt;
+&lt;ac:task-status&gt;incomplete&lt;/ac:task-status&gt;
+&lt;ac:task-body&gt;
+                        &lt;strong&gt;Create your first page&lt;/strong&gt; - Click the &lt;em&gt;Create&lt;/em&gt; button in the header to get started
+                    &lt;/ac:task-body&gt;
+&lt;/ac:task&gt;
+&lt;ac:task&gt;
+&lt;ac:task-id&gt;3011&lt;/ac:task-id&gt;
+&lt;ac:task-status&gt;incomplete&lt;/ac:task-status&gt;
+&lt;ac:task-body&gt;
+                        &lt;strong&gt;Brand your Space&lt;/strong&gt; - Click &lt;em&gt;Configure Sidebar&lt;/em&gt; in the left panel to update space details and logo
+                    &lt;/ac:task-body&gt;
+&lt;/ac:task&gt;
+&lt;ac:task&gt;
+&lt;ac:task-id&gt;3012&lt;/ac:task-id&gt;
+&lt;ac:task-status&gt;incomplete&lt;/ac:task-status&gt;
+&lt;ac:task-body&gt;
+                        &lt;strong&gt;Set permissions&lt;/strong&gt; - Click &lt;em&gt;Space Tools&lt;/em&gt; in the left sidebar to update permissions and give others access
+                    &lt;/ac:task-body&gt;
+&lt;/ac:task&gt;
+&lt;/ac:task-list&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/ac:layout-cell&gt;&lt;/ac:layout-section&gt;&lt;ac:layout-section ac:type=&quot;two_equal&quot;&gt;&lt;ac:layout-cell&gt;
+&lt;h2&gt;Recent space activity&lt;/h2&gt;&lt;p&gt;
+                    &lt;ac:structured-macro ac:macro-id=&quot;f7ebf3a4-db12-4ca8-b859-f3331a8f0d3a&quot; ac:name=&quot;recently-updated&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;types&quot;&gt;page, comment, blogpost&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;max&quot;&gt;5&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;hideHeading&quot;&gt;true&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;theme&quot;&gt;social&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;
+                &lt;/p&gt;&lt;/ac:layout-cell&gt;&lt;ac:layout-cell&gt;
+&lt;h2&gt;Space contributors&lt;/h2&gt;&lt;p&gt;
+                    &lt;ac:structured-macro ac:macro-id=&quot;8bb9149b-5509-49ab-ac7f-477d82a71153&quot; ac:name=&quot;contributors&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;mode&quot;&gt;list&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;scope&quot;&gt;descendants&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;limit&quot;&gt;5&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;showLastTime&quot;&gt;true&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;order&quot;&gt;update&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;
+                &lt;/p&gt;&lt;/ac:layout-cell&gt;&lt;/ac:layout-section&gt;&lt;ac:layout-section ac:type=&quot;single&quot;&gt;&lt;ac:layout-cell&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/ac:layout-cell&gt;&lt;/ac:layout-section&gt;&lt;/ac:layout&gt;</storageFormat>
+            <children>testPage2</children>
+            <children>externalTargetSpaceTest</children>
+            <children>Copy of externalTargetSpaceTest</children>
+            <pagePermissions/>
+            <isHomePage>true</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>testPage2</pageTitle>
+            <storageFormat></storageFormat>
+            <children>externalTargetPageTest</children>
+            <children>Copy of externalTargetPageTest</children>
+            <pagePermissions/>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>externalTargetPageTest</pageTitle>
+            <storageFormat></storageFormat>
+            <pagePermissions/>
+            <pagePosition>-1</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>externalTargetSpaceTest</pageTitle>
+            <storageFormat></storageFormat>
+            <pagePermissions/>
+            <pagePosition>0</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>Copy of externalTargetPageTest</pageTitle>
+            <storageFormat></storageFormat>
+            <pagePermissions/>
+            <pagePosition>0</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>Copy of externalTargetSpaceTest</pageTitle>
+            <storageFormat></storageFormat>
+            <pagePermissions/>
+            <pagePosition>1</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+    </testSpaces>
+    <testSpaces>
+        <spaceName>[-TestSpace-]CreatePageTreeMenuSource</spaceName>
+        <spaceKey>SeleniumCreatePageTreeMenu</spaceKey>
+        <createdBy>admin</createdBy>
+        <spacePermissions>
+            <groups>
+                <name>confluence-users</name>
+                <spaceRestrictions>
+                    <all_view>true</all_view>
+                    <pages_add>true</pages_add>
+                    <pages_delete>false</pages_delete>
+                    <blog_add>true</blog_add>
+                    <blog_delete>false</blog_delete>
+                    <comments_add>true</comments_add>
+                    <comments_delete>false</comments_delete>
+                    <attachments_add>true</attachments_add>
+                    <attachments_delete>false</attachments_delete>
+                    <restrictions_addDelete>false</restrictions_addDelete>
+                    <mail_delete>false</mail_delete>
+                    <space_export>true</space_export>
+                    <space_admin>true</space_admin>
+                </spaceRestrictions>
+            </groups>
+            <users>
+                <name>admin</name>
+                <spaceRestrictions>
+                    <all_view>true</all_view>
+                    <pages_add>true</pages_add>
+                    <pages_delete>true</pages_delete>
+                    <blog_add>true</blog_add>
+                    <blog_delete>true</blog_delete>
+                    <comments_add>true</comments_add>
+                    <comments_delete>true</comments_delete>
+                    <attachments_add>true</attachments_add>
+                    <attachments_delete>true</attachments_delete>
+                    <restrictions_addDelete>true</restrictions_addDelete>
+                    <mail_delete>true</mail_delete>
+                    <space_export>true</space_export>
+                    <space_admin>true</space_admin>
+                </spaceRestrictions>
+            </users>
+            <anonymousAccess>
+                <all_view>false</all_view>
+                <pages_add>false</pages_add>
+                <pages_delete>false</pages_delete>
+                <blog_add>false</blog_add>
+                <blog_delete>false</blog_delete>
+                <comments_add>false</comments_add>
+                <comments_delete>false</comments_delete>
+                <attachments_add>false</attachments_add>
+                <attachments_delete>false</attachments_delete>
+                <restrictions_addDelete>false</restrictions_addDelete>
+                <mail_delete>false</mail_delete>
+                <space_export>false</space_export>
+                <space_admin>false</space_admin>
+            </anonymousAccess>
+        </spacePermissions>
+        <testPages>
+            <pageTitle>[-TestSpace-]CreatePageTreeMenuSource Home</pageTitle>
+            <storageFormat>
+&lt;ac:layout&gt;&lt;ac:layout-section ac:type=&quot;single&quot;&gt;&lt;ac:layout-cell&gt;
+&lt;ac:structured-macro ac:macro-id=&quot;c403abe6-edd8-4b46-8109-f94d36ec707e&quot; ac:name=&quot;tip&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;title&quot;&gt;Welcome to your new space!&lt;/ac:parameter&gt;&lt;ac:rich-text-body&gt;
+                    &lt;p&gt;Confluence spaces are great for sharing content and news with your team. This is your home page. Right now it shows recent space activity, but you can customize this page in anyway you like.&lt;/p&gt;
+                &lt;/ac:rich-text-body&gt;&lt;/ac:structured-macro&gt;&lt;h2&gt;Complete these tasks to get started&lt;/h2&gt;&lt;ac:task-list&gt;
+&lt;ac:task&gt;
+&lt;ac:task-id&gt;3005&lt;/ac:task-id&gt;
+&lt;ac:task-status&gt;incomplete&lt;/ac:task-status&gt;
+&lt;ac:task-body&gt;
+                        &lt;strong&gt;Edit this home page&lt;/strong&gt; - Click &lt;em&gt;Edit&lt;/em&gt; in the top right of this screen to customize your Space home page
+                    &lt;/ac:task-body&gt;
+&lt;/ac:task&gt;
+&lt;ac:task&gt;
+&lt;ac:task-id&gt;3006&lt;/ac:task-id&gt;
+&lt;ac:task-status&gt;incomplete&lt;/ac:task-status&gt;
+&lt;ac:task-body&gt;
+                        &lt;strong&gt;Create your first page&lt;/strong&gt; - Click the &lt;em&gt;Create&lt;/em&gt; button in the header to get started
+                    &lt;/ac:task-body&gt;
+&lt;/ac:task&gt;
+&lt;ac:task&gt;
+&lt;ac:task-id&gt;3007&lt;/ac:task-id&gt;
+&lt;ac:task-status&gt;incomplete&lt;/ac:task-status&gt;
+&lt;ac:task-body&gt;
+                        &lt;strong&gt;Brand your Space&lt;/strong&gt; - Click &lt;em&gt;Configure Sidebar&lt;/em&gt; in the left panel to update space details and logo
+                    &lt;/ac:task-body&gt;
+&lt;/ac:task&gt;
+&lt;ac:task&gt;
+&lt;ac:task-id&gt;3008&lt;/ac:task-id&gt;
+&lt;ac:task-status&gt;incomplete&lt;/ac:task-status&gt;
+&lt;ac:task-body&gt;
+                        &lt;strong&gt;Set permissions&lt;/strong&gt; - Click &lt;em&gt;Space Tools&lt;/em&gt; in the left sidebar to update permissions and give others access
+                    &lt;/ac:task-body&gt;
+&lt;/ac:task&gt;
+&lt;/ac:task-list&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/ac:layout-cell&gt;&lt;/ac:layout-section&gt;&lt;ac:layout-section ac:type=&quot;two_equal&quot;&gt;&lt;ac:layout-cell&gt;
+&lt;h2&gt;Recent space activity&lt;/h2&gt;&lt;p&gt;
+                    &lt;ac:structured-macro ac:macro-id=&quot;34b98dd5-3300-4a6d-b66b-4fe14e05da76&quot; ac:name=&quot;recently-updated&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;types&quot;&gt;page, comment, blogpost&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;max&quot;&gt;5&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;hideHeading&quot;&gt;true&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;theme&quot;&gt;social&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;
+                &lt;/p&gt;&lt;/ac:layout-cell&gt;&lt;ac:layout-cell&gt;
+&lt;h2&gt;Space contributors&lt;/h2&gt;&lt;p&gt;
+                    &lt;ac:structured-macro ac:macro-id=&quot;c9a02ac2-d922-48b4-9633-cbba68110e13&quot; ac:name=&quot;contributors&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;mode&quot;&gt;list&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;scope&quot;&gt;descendants&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;limit&quot;&gt;5&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;showLastTime&quot;&gt;true&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;order&quot;&gt;update&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;
+                &lt;/p&gt;&lt;/ac:layout-cell&gt;&lt;/ac:layout-section&gt;&lt;ac:layout-section ac:type=&quot;single&quot;&gt;&lt;ac:layout-cell&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/ac:layout-cell&gt;&lt;/ac:layout-section&gt;&lt;/ac:layout&gt;</storageFormat>
+            <children>targetSpaceTest</children>
+            <children>externalTargetSpaceTest</children>
+            <children>targetPageTest</children>
+            <children>externalTargetPageTest</children>
+            <children>pageTitlePrefixTest</children>
+            <children>pageTitlePrefixWithSpecialCharactersTest</children>
+            <children>copyAttachmentsChecked</children>
+            <children>copyAttachmentsUnchecked</children>
+            <children>errorHandlingTargetPageTest</children>
+            <children>targetPageEmptyTest</children>
+            <children>targetSpaceEmptyTest</children>
+            <children>Copy of copyAttachmentsUnchecked</children>
+            <children>Copy of targetPageEmptyTest</children>
+            <children>newPrefixpageTitlePrefixTest</children>
+            <children>Copy of targetSpaceTest</children>
+            <children>Copy of copyAttachmentsChecked</children>
+            <pagePermissions/>
+            <isHomePage>true</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>targetSpaceTest</pageTitle>
+            <storageFormat></storageFormat>
+            <pagePermissions/>
+            <pagePosition>1</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>externalTargetSpaceTest</pageTitle>
+            <storageFormat></storageFormat>
+            <pagePermissions/>
+            <pagePosition>0</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>targetPageTest</pageTitle>
+            <storageFormat></storageFormat>
+            <children>Copy of targetPageTest</children>
+            <pagePermissions/>
+            <pagePosition>2</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>externalTargetPageTest</pageTitle>
+            <storageFormat></storageFormat>
+            <pagePermissions/>
+            <pagePosition>3</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>pageTitlePrefixTest</pageTitle>
+            <storageFormat></storageFormat>
+            <pagePermissions/>
+            <pagePosition>4</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>pageTitlePrefixWithSpecialCharactersTest</pageTitle>
+            <storageFormat></storageFormat>
+            <pagePermissions/>
+            <pagePosition>5</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>copyAttachmentsChecked</pageTitle>
+            <storageFormat>&lt;p&gt;&lt;ac:structured-macro ac:macro-id=&quot;f5eaa26e-d398-494e-bb5b-20a7fb1929ed&quot; ac:name=&quot;view-file&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;name&quot;&gt;&lt;ri:attachment ri:filename=&quot;bobswift-confluence-rest-5.7.0 (1).jar&quot; /&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;height&quot;&gt;250&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;ac:image ac:height=&quot;250&quot;&gt;&lt;ri:attachment ri:filename=&quot;Capture.PNG&quot; /&gt;&lt;/ac:image&gt;&lt;/p&gt;</storageFormat>
+            <pagePermissions/>
+            <attachments>
+                <name>bobswift-confluence-rest-5.7.0 (1).jar</name>
+                <id>22511896</id>
+                <filepath>SeleniumCreatePageTreeMenu\copyAttachmentsChecked</filepath>
+                <fileName>bobswift-confluence-rest-5.7.0 (1).jar</fileName>
+                <comment></comment>
+                <creator>admin</creator>
+                <mediaType>application/java-archive</mediaType>
+                <fileSize>317758</fileSize>
+                <version>1</version>
+            </attachments>
+            <attachments>
+                <name>Capture.PNG</name>
+                <id>22511897</id>
+                <filepath>SeleniumCreatePageTreeMenu\copyAttachmentsChecked</filepath>
+                <fileName>Capture.PNG</fileName>
+                <comment></comment>
+                <creator>admin</creator>
+                <mediaType>image/png</mediaType>
+                <fileSize>87759</fileSize>
+                <version>1</version>
+            </attachments>
+            <pagePosition>7</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>copyAttachmentsUnchecked</pageTitle>
+            <storageFormat>&lt;p&gt;&lt;ac:structured-macro ac:macro-id=&quot;a784cfdd-e1d6-48a5-b763-d796ca7f240f&quot; ac:name=&quot;view-file&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;name&quot;&gt;&lt;ri:attachment ri:filename=&quot;bobswift-confluence-rest-5.7.0 (1).jar&quot; /&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;height&quot;&gt;250&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;ac:image ac:height=&quot;250&quot;&gt;&lt;ri:attachment ri:filename=&quot;Capture.PNG&quot; /&gt;&lt;/ac:image&gt;&lt;/p&gt;</storageFormat>
+            <pagePermissions/>
+            <attachments>
+                <name>bobswift-confluence-rest-5.7.0 (1).jar</name>
+                <id>22511899</id>
+                <filepath>SeleniumCreatePageTreeMenu\copyAttachmentsUnchecked</filepath>
+                <fileName>bobswift-confluence-rest-5.7.0 (1).jar</fileName>
+                <comment></comment>
+                <creator>admin</creator>
+                <mediaType>application/java-archive</mediaType>
+                <fileSize>317758</fileSize>
+                <version>1</version>
+            </attachments>
+            <attachments>
+                <name>Capture.PNG</name>
+                <id>22511900</id>
+                <filepath>SeleniumCreatePageTreeMenu\copyAttachmentsUnchecked</filepath>
+                <fileName>Capture.PNG</fileName>
+                <comment></comment>
+                <creator>admin</creator>
+                <mediaType>image/png</mediaType>
+                <fileSize>87759</fileSize>
+                <version>1</version>
+            </attachments>
+            <pagePosition>9</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>errorHandlingTargetPageTest</pageTitle>
+            <storageFormat></storageFormat>
+            <pagePermissions/>
+            <pagePosition>11</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>targetPageEmptyTest</pageTitle>
+            <storageFormat></storageFormat>
+            <pagePermissions/>
+            <pagePosition>12</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>targetSpaceEmptyTest</pageTitle>
+            <storageFormat></storageFormat>
+            <pagePermissions/>
+            <pagePosition>13</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>Copy of copyAttachmentsUnchecked</pageTitle>
+            <storageFormat>&lt;p&gt;&lt;ac:structured-macro ac:macro-id=&quot;80ecfc48-0c49-4524-9062-38cec4df2015&quot; ac:name=&quot;view-file&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;name&quot;&gt;&lt;ri:attachment ri:filename=&quot;bobswift-confluence-rest-5.7.0 (1).jar&quot;&gt;&lt;ri:page ri:content-title=&quot;copyAttachmentsUnchecked&quot; /&gt;&lt;/ri:attachment&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;height&quot;&gt;250&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;ac:image ac:height=&quot;250&quot;&gt;&lt;ri:attachment ri:filename=&quot;Capture.PNG&quot;&gt;&lt;ri:page ri:content-title=&quot;copyAttachmentsUnchecked&quot; /&gt;&lt;/ri:attachment&gt;&lt;/ac:image&gt;&lt;/p&gt;</storageFormat>
+            <pagePermissions/>
+            <pagePosition>11</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>Copy of targetPageTest</pageTitle>
+            <storageFormat></storageFormat>
+            <pagePermissions/>
+            <pagePosition>0</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>Copy of targetPageEmptyTest</pageTitle>
+            <storageFormat></storageFormat>
+            <pagePermissions/>
+            <pagePosition>12</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>newPrefixpageTitlePrefixTest</pageTitle>
+            <storageFormat></storageFormat>
+            <pagePermissions/>
+            <pagePosition>13</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>Copy of targetSpaceTest</pageTitle>
+            <storageFormat></storageFormat>
+            <pagePermissions/>
+            <pagePosition>14</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>Copy of copyAttachmentsChecked</pageTitle>
+            <storageFormat>&lt;p&gt;&lt;ac:structured-macro ac:macro-id=&quot;6a8e7fef-4bec-4ee0-8862-bfef29a415f3&quot; ac:name=&quot;view-file&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;name&quot;&gt;&lt;ri:attachment ri:filename=&quot;bobswift-confluence-rest-5.7.0 (1).jar&quot; /&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;height&quot;&gt;250&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;ac:image ac:height=&quot;250&quot;&gt;&lt;ri:attachment ri:filename=&quot;Capture.PNG&quot; /&gt;&lt;/ac:image&gt;&lt;/p&gt;</storageFormat>
+            <pagePermissions/>
+            <attachments>
+                <name>Capture.PNG</name>
+                <id>23003300</id>
+                <filepath>SeleniumCreatePageTreeMenu\Copy of copyAttachmentsChecked</filepath>
+                <fileName>Capture.PNG</fileName>
+                <comment></comment>
+                <creator>admin</creator>
+                <mediaType>image/png</mediaType>
+                <fileSize>87759</fileSize>
+                <version>1</version>
+            </attachments>
+            <attachments>
+                <name>bobswift-confluence-rest-5.7.0 (1).jar</name>
+                <id>23003301</id>
+                <filepath>SeleniumCreatePageTreeMenu\Copy of copyAttachmentsChecked</filepath>
+                <fileName>bobswift-confluence-rest-5.7.0 (1).jar</fileName>
+                <comment></comment>
+                <creator>admin</creator>
+                <mediaType>application/java-archive</mediaType>
+                <fileSize>317758</fileSize>
+                <version>1</version>
+            </attachments>
+            <pagePosition>14</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+    </testSpaces>
+    <testSpaces>
+        <spaceName>[-TestSpace-]customlinktest</spaceName>
+        <spaceKey>seleniumCustomLinkText</spaceKey>
+        <createdBy>admin</createdBy>
+        <spacePermissions>
+            <groups>
+                <name>confluence-users</name>
+                <spaceRestrictions>
+                    <all_view>true</all_view>
+                    <pages_add>true</pages_add>
+                    <pages_delete>false</pages_delete>
+                    <blog_add>true</blog_add>
+                    <blog_delete>false</blog_delete>
+                    <comments_add>true</comments_add>
+                    <comments_delete>false</comments_delete>
+                    <attachments_add>true</attachments_add>
+                    <attachments_delete>false</attachments_delete>
+                    <restrictions_addDelete>false</restrictions_addDelete>
+                    <mail_delete>false</mail_delete>
+                    <space_export>true</space_export>
+                    <space_admin>true</space_admin>
+                </spaceRestrictions>
+            </groups>
+            <users>
+                <name>admin</name>
+                <spaceRestrictions>
+                    <all_view>true</all_view>
+                    <pages_add>true</pages_add>
+                    <pages_delete>true</pages_delete>
+                    <blog_add>true</blog_add>
+                    <blog_delete>true</blog_delete>
+                    <comments_add>true</comments_add>
+                    <comments_delete>true</comments_delete>
+                    <attachments_add>true</attachments_add>
+                    <attachments_delete>true</attachments_delete>
+                    <restrictions_addDelete>true</restrictions_addDelete>
+                    <mail_delete>true</mail_delete>
+                    <space_export>true</space_export>
+                    <space_admin>true</space_admin>
+                </spaceRestrictions>
+            </users>
+            <anonymousAccess>
+                <all_view>false</all_view>
+                <pages_add>false</pages_add>
+                <pages_delete>false</pages_delete>
+                <blog_add>false</blog_add>
+                <blog_delete>false</blog_delete>
+                <comments_add>false</comments_add>
+                <comments_delete>false</comments_delete>
+                <attachments_add>false</attachments_add>
+                <attachments_delete>false</attachments_delete>
+                <restrictions_addDelete>false</restrictions_addDelete>
+                <mail_delete>false</mail_delete>
+                <space_export>false</space_export>
+                <space_admin>false</space_admin>
+            </anonymousAccess>
+        </spacePermissions>
+        <testPages>
+            <pageTitle>[-TestSpace-]customlinktest Home</pageTitle>
+            <storageFormat>
+&lt;ac:layout&gt;&lt;ac:layout-section ac:type=&quot;single&quot;&gt;&lt;ac:layout-cell&gt;
+&lt;ac:structured-macro ac:macro-id=&quot;ec2e6afa-c1b2-4b45-aa79-34e4b37fc466&quot; ac:name=&quot;tip&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;title&quot;&gt;Welcome to your new space!&lt;/ac:parameter&gt;&lt;ac:rich-text-body&gt;
+                    &lt;p&gt;Confluence spaces are great for sharing content and news with your team. This is your home page. Right now it shows recent space activity, but you can customize this page in anyway you like.&lt;/p&gt;
+                &lt;/ac:rich-text-body&gt;&lt;/ac:structured-macro&gt;&lt;h2&gt;Complete these tasks to get started&lt;/h2&gt;&lt;ac:task-list&gt;
+&lt;ac:task&gt;
+&lt;ac:task-id&gt;3113&lt;/ac:task-id&gt;
+&lt;ac:task-status&gt;incomplete&lt;/ac:task-status&gt;
+&lt;ac:task-body&gt;
+                        &lt;strong&gt;Edit this home page&lt;/strong&gt; - Click &lt;em&gt;Edit&lt;/em&gt; in the top right of this screen to customize your Space home page
+                    &lt;/ac:task-body&gt;
+&lt;/ac:task&gt;
+&lt;ac:task&gt;
+&lt;ac:task-id&gt;3114&lt;/ac:task-id&gt;
+&lt;ac:task-status&gt;incomplete&lt;/ac:task-status&gt;
+&lt;ac:task-body&gt;
+                        &lt;strong&gt;Create your first page&lt;/strong&gt; - Click the &lt;em&gt;Create&lt;/em&gt; button in the header to get started
+                    &lt;/ac:task-body&gt;
+&lt;/ac:task&gt;
+&lt;ac:task&gt;
+&lt;ac:task-id&gt;3115&lt;/ac:task-id&gt;
+&lt;ac:task-status&gt;incomplete&lt;/ac:task-status&gt;
+&lt;ac:task-body&gt;
+                        &lt;strong&gt;Brand your Space&lt;/strong&gt; - Click &lt;em&gt;Configure Sidebar&lt;/em&gt; in the left panel to update space details and logo
+                    &lt;/ac:task-body&gt;
+&lt;/ac:task&gt;
+&lt;ac:task&gt;
+&lt;ac:task-id&gt;3116&lt;/ac:task-id&gt;
+&lt;ac:task-status&gt;incomplete&lt;/ac:task-status&gt;
+&lt;ac:task-body&gt;
+                        &lt;strong&gt;Set permissions&lt;/strong&gt; - Click &lt;em&gt;Space Tools&lt;/em&gt; in the left sidebar to update permissions and give others access
+                    &lt;/ac:task-body&gt;
+&lt;/ac:task&gt;
+&lt;/ac:task-list&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/ac:layout-cell&gt;&lt;/ac:layout-section&gt;&lt;ac:layout-section ac:type=&quot;two_equal&quot;&gt;&lt;ac:layout-cell&gt;
+&lt;h2&gt;Recent space activity&lt;/h2&gt;&lt;p&gt;
+                    &lt;ac:structured-macro ac:macro-id=&quot;510c6a4e-d411-4367-8548-05d7b3cd133e&quot; ac:name=&quot;recently-updated&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;types&quot;&gt;page, comment, blogpost&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;max&quot;&gt;5&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;hideHeading&quot;&gt;true&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;theme&quot;&gt;social&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;
+                &lt;/p&gt;&lt;/ac:layout-cell&gt;&lt;ac:layout-cell&gt;
+&lt;h2&gt;Space contributors&lt;/h2&gt;&lt;p&gt;
+                    &lt;ac:structured-macro ac:macro-id=&quot;a0c2f4dc-4608-4080-9431-53510c2460c9&quot; ac:name=&quot;contributors&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;mode&quot;&gt;list&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;scope&quot;&gt;descendants&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;limit&quot;&gt;5&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;showLastTime&quot;&gt;true&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;order&quot;&gt;update&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;
+                &lt;/p&gt;&lt;/ac:layout-cell&gt;&lt;/ac:layout-section&gt;&lt;ac:layout-section ac:type=&quot;single&quot;&gt;&lt;ac:layout-cell&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/ac:layout-cell&gt;&lt;/ac:layout-section&gt;&lt;/ac:layout&gt;</storageFormat>
+            <children>__tag__topPage</children>
+            <children>customlinktestpage</children>
+            <children>targetpage</children>
+            <children>customDollarLinkTest</children>
+            <children>$$tag$$topPage</children>
+            <children>targetdollarpage</children>
+            <children>__tag__</children>
+            <children>targetpage2</children>
+            <pagePermissions/>
+            <isHomePage>true</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>__tag__topPage</pageTitle>
+            <storageFormat></storageFormat>
+            <children>__tag__childPage</children>
+            <pagePermissions/>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>__tag__childPage</pageTitle>
+            <storageFormat>&lt;p&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;__tag__topPage&quot; /&gt;&lt;ac:plain-text-link-body&gt;&lt;![CDATA[__tag__topPageTest]]&gt;&lt;/ac:plain-text-link-body&gt;&lt;/ac:link&gt;&lt;/p&gt;</storageFormat>
+            <pagePermissions/>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>customlinktestpage</pageTitle>
+            <storageFormat>&lt;p&gt;&lt;ac:structured-macro ac:macro-id=&quot;04a96b60-064b-4eeb-8c9c-afaf12e652fb&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;__tag__topPage&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;customlinktest&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;target-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;targetpage&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/p&gt;</storageFormat>
+            <pagePermissions/>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>targetpage</pageTitle>
+            <storageFormat></storageFormat>
+            <children>gwagtopPage</children>
+            <pagePermissions/>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>gwagtopPage</pageTitle>
+            <storageFormat></storageFormat>
+            <children>gwagchildPage</children>
+            <labels>null</labels>
+            <pagePermissions/>
+            <pagePosition>-1</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>gwagchildPage</pageTitle>
+            <storageFormat>&lt;p&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;gwagtopPage&quot; /&gt;&lt;ac:plain-text-link-body&gt;&lt;![CDATA[gwagtopPageTest]]&gt;&lt;/ac:plain-text-link-body&gt;&lt;/ac:link&gt;&lt;/p&gt;</storageFormat>
+            <pagePermissions/>
+            <pagePosition>0</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>customDollarLinkTest</pageTitle>
+            <storageFormat>&lt;p&gt;&lt;ac:structured-macro ac:macro-id=&quot;d8d4194f-7e42-43c2-bf8c-d4f2d7fcb007&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;$$tag$$topPage&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;dollarButton&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;target-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;targetdollarpage&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/p&gt;</storageFormat>
+            <pagePermissions/>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>$$tag$$topPage</pageTitle>
+            <storageFormat></storageFormat>
+            <children>$$tag$$childPage</children>
+            <pagePermissions/>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>$$tag$$childPage</pageTitle>
+            <storageFormat>&lt;p&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;$$tag$$topPage&quot; /&gt;&lt;ac:plain-text-link-body&gt;&lt;![CDATA[$$tag$$customtext]]&gt;&lt;/ac:plain-text-link-body&gt;&lt;/ac:link&gt;&lt;/p&gt;</storageFormat>
+            <pagePermissions/>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>targetdollarpage</pageTitle>
+            <storageFormat></storageFormat>
+            <children>dollartopPage</children>
+            <pagePermissions/>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>dollartopPage</pageTitle>
+            <storageFormat></storageFormat>
+            <children>dollarchildPage</children>
+            <labels>null</labels>
+            <pagePermissions/>
+            <pagePosition>-1</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>dollarchildPage</pageTitle>
+            <storageFormat>&lt;p&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;dollartopPage&quot; /&gt;&lt;ac:plain-text-link-body&gt;&lt;![CDATA[dollarcustomtext]]&gt;&lt;/ac:plain-text-link-body&gt;&lt;/ac:link&gt;&lt;/p&gt;</storageFormat>
+            <pagePermissions/>
+            <pagePosition>0</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>__tag__</pageTitle>
+            <storageFormat></storageFormat>
+            <children>__titletag__top</children>
+            <pagePermissions/>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>__titletag__top</pageTitle>
+            <storageFormat>&lt;p&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;__tag__&quot; /&gt;&lt;ac:plain-text-link-body&gt;&lt;![CDATA[__tag__1]]&gt;&lt;/ac:plain-text-link-body&gt;&lt;/ac:link&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;ac:structured-macro ac:macro-id=&quot;2f946f3b-ed31-4f40-9c31-79193a8e9541&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;@self&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;test&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;target-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;targetpage2&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/p&gt;</storageFormat>
+            <pagePermissions/>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>targetpage2</pageTitle>
+            <storageFormat></storageFormat>
+            <children>gwagtop</children>
+            <pagePermissions/>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>gwagtop</pageTitle>
+            <storageFormat>&lt;p&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;__tag__&quot; /&gt;&lt;/ac:link&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;ac:structured-macro ac:macro-id=&quot;39f00c21-1921-4895-9c75-ab9f43262232&quot; ac:name=&quot;pagetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link /&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;test&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;target-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;targetpage2&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/p&gt;</storageFormat>
+            <labels>null</labels>
+            <pagePermissions/>
+            <pagePosition>0</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+    </testSpaces>
+    <testSpaces>
+        <spaceName>[-TestSpace-]customPermittedSpace</spaceName>
+        <spaceKey>seleniumCustomPermittedSpace</spaceKey>
+        <createdBy>admin</createdBy>
+        <spacePermissions>
+            <groups>
+                <name>confluence-users</name>
+                <spaceRestrictions>
+                    <all_view>true</all_view>
+                    <pages_add>true</pages_add>
+                    <pages_delete>false</pages_delete>
+                    <blog_add>true</blog_add>
+                    <blog_delete>false</blog_delete>
+                    <comments_add>true</comments_add>
+                    <comments_delete>false</comments_delete>
+                    <attachments_add>true</attachments_add>
+                    <attachments_delete>false</attachments_delete>
+                    <restrictions_addDelete>false</restrictions_addDelete>
+                    <mail_delete>false</mail_delete>
+                    <space_export>true</space_export>
+                    <space_admin>true</space_admin>
+                </spaceRestrictions>
+            </groups>
+            <users>
+                <name>admin</name>
+                <spaceRestrictions>
+                    <all_view>true</all_view>
+                    <pages_add>true</pages_add>
+                    <pages_delete>true</pages_delete>
+                    <blog_add>true</blog_add>
+                    <blog_delete>true</blog_delete>
+                    <comments_add>true</comments_add>
+                    <comments_delete>true</comments_delete>
+                    <attachments_add>true</attachments_add>
+                    <attachments_delete>true</attachments_delete>
+                    <restrictions_addDelete>true</restrictions_addDelete>
+                    <mail_delete>true</mail_delete>
+                    <space_export>true</space_export>
+                    <space_admin>true</space_admin>
+                </spaceRestrictions>
+            </users>
+            <anonymousAccess>
+                <all_view>false</all_view>
+                <pages_add>false</pages_add>
+                <pages_delete>false</pages_delete>
+                <blog_add>false</blog_add>
+                <blog_delete>false</blog_delete>
+                <comments_add>false</comments_add>
+                <comments_delete>false</comments_delete>
+                <attachments_add>false</attachments_add>
+                <attachments_delete>false</attachments_delete>
+                <restrictions_addDelete>false</restrictions_addDelete>
+                <mail_delete>false</mail_delete>
+                <space_export>false</space_export>
+                <space_admin>false</space_admin>
+            </anonymousAccess>
+        </spacePermissions>
+        <testPages>
+            <pageTitle>[-TestSpace-]customPermittedSpace Home</pageTitle>
+            <storageFormat>
+&lt;ac:layout&gt;&lt;ac:layout-section ac:type=&quot;single&quot;&gt;&lt;ac:layout-cell&gt;
+&lt;ac:structured-macro ac:macro-id=&quot;5e0ce0cc-baf8-4d98-b1ce-c45de450bbc6&quot; ac:name=&quot;tip&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;title&quot;&gt;Welcome to your new space!&lt;/ac:parameter&gt;&lt;ac:rich-text-body&gt;
+                    &lt;p&gt;Confluence spaces are great for sharing content and news with your team. This is your home page. Right now it shows recent space activity, but you can customize this page in anyway you like.&lt;/p&gt;
+                &lt;/ac:rich-text-body&gt;&lt;/ac:structured-macro&gt;&lt;h2&gt;Complete these tasks to get started&lt;/h2&gt;&lt;ac:task-list&gt;
+&lt;ac:task&gt;
+&lt;ac:task-id&gt;3109&lt;/ac:task-id&gt;
+&lt;ac:task-status&gt;incomplete&lt;/ac:task-status&gt;
+&lt;ac:task-body&gt;
+                        &lt;strong&gt;Edit this home page&lt;/strong&gt; - Click &lt;em&gt;Edit&lt;/em&gt; in the top right of this screen to customize your Space home page
+                    &lt;/ac:task-body&gt;
+&lt;/ac:task&gt;
+&lt;ac:task&gt;
+&lt;ac:task-id&gt;3110&lt;/ac:task-id&gt;
+&lt;ac:task-status&gt;incomplete&lt;/ac:task-status&gt;
+&lt;ac:task-body&gt;
+                        &lt;strong&gt;Create your first page&lt;/strong&gt; - Click the &lt;em&gt;Create&lt;/em&gt; button in the header to get started
+                    &lt;/ac:task-body&gt;
+&lt;/ac:task&gt;
+&lt;ac:task&gt;
+&lt;ac:task-id&gt;3111&lt;/ac:task-id&gt;
+&lt;ac:task-status&gt;incomplete&lt;/ac:task-status&gt;
+&lt;ac:task-body&gt;
+                        &lt;strong&gt;Brand your Space&lt;/strong&gt; - Click &lt;em&gt;Configure Sidebar&lt;/em&gt; in the left panel to update space details and logo
+                    &lt;/ac:task-body&gt;
+&lt;/ac:task&gt;
+&lt;ac:task&gt;
+&lt;ac:task-id&gt;3112&lt;/ac:task-id&gt;
+&lt;ac:task-status&gt;incomplete&lt;/ac:task-status&gt;
+&lt;ac:task-body&gt;
+                        &lt;strong&gt;Set permissions&lt;/strong&gt; - Click &lt;em&gt;Space Tools&lt;/em&gt; in the left sidebar to update permissions and give others access
+                    &lt;/ac:task-body&gt;
+&lt;/ac:task&gt;
+&lt;/ac:task-list&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/ac:layout-cell&gt;&lt;/ac:layout-section&gt;&lt;ac:layout-section ac:type=&quot;two_equal&quot;&gt;&lt;ac:layout-cell&gt;
+&lt;h2&gt;Recent space activity&lt;/h2&gt;&lt;p&gt;
+                    &lt;ac:structured-macro ac:macro-id=&quot;2621289c-70b0-4154-a925-b14fa5c3421a&quot; ac:name=&quot;recently-updated&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;types&quot;&gt;page, comment, blogpost&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;max&quot;&gt;5&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;hideHeading&quot;&gt;true&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;theme&quot;&gt;social&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;
+                &lt;/p&gt;&lt;/ac:layout-cell&gt;&lt;ac:layout-cell&gt;
+&lt;h2&gt;Space contributors&lt;/h2&gt;&lt;p&gt;
+                    &lt;ac:structured-macro ac:macro-id=&quot;e633c492-5d9b-478c-9dd8-016a5f40d8ae&quot; ac:name=&quot;contributors&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;mode&quot;&gt;list&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;scope&quot;&gt;descendants&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;limit&quot;&gt;5&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;showLastTime&quot;&gt;true&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;order&quot;&gt;update&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;
+                &lt;/p&gt;&lt;/ac:layout-cell&gt;&lt;/ac:layout-section&gt;&lt;ac:layout-section ac:type=&quot;single&quot;&gt;&lt;ac:layout-cell&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/ac:layout-cell&gt;&lt;/ac:layout-section&gt;&lt;/ac:layout&gt;</storageFormat>
+            <pagePermissions/>
+            <isHomePage>true</isHomePage>
+        </testPages>
+    </testSpaces>
+    <testSpaces>
+        <spaceName>[-TestSpace-]stcButtonShowConditionsTest</spaceName>
+        <spaceKey>seleniumstcbuttonshowconditions</spaceKey>
+        <createdBy>admin</createdBy>
+        <spacePermissions>
+            <groups>
+                <name>confluence-users</name>
+                <spaceRestrictions>
+                    <all_view>true</all_view>
+                    <pages_add>true</pages_add>
+                    <pages_delete>false</pages_delete>
+                    <blog_add>true</blog_add>
+                    <blog_delete>false</blog_delete>
+                    <comments_add>true</comments_add>
+                    <comments_delete>false</comments_delete>
+                    <attachments_add>true</attachments_add>
+                    <attachments_delete>false</attachments_delete>
+                    <restrictions_addDelete>false</restrictions_addDelete>
+                    <mail_delete>false</mail_delete>
+                    <space_export>true</space_export>
+                    <space_admin>true</space_admin>
+                </spaceRestrictions>
+            </groups>
+            <users>
+                <name>admin</name>
+                <spaceRestrictions>
+                    <all_view>true</all_view>
+                    <pages_add>true</pages_add>
+                    <pages_delete>true</pages_delete>
+                    <blog_add>true</blog_add>
+                    <blog_delete>true</blog_delete>
+                    <comments_add>true</comments_add>
+                    <comments_delete>true</comments_delete>
+                    <attachments_add>true</attachments_add>
+                    <attachments_delete>true</attachments_delete>
+                    <restrictions_addDelete>true</restrictions_addDelete>
+                    <mail_delete>true</mail_delete>
+                    <space_export>true</space_export>
+                    <space_admin>true</space_admin>
+                </spaceRestrictions>
+            </users>
+            <anonymousAccess>
+                <all_view>false</all_view>
+                <pages_add>false</pages_add>
+                <pages_delete>false</pages_delete>
+                <blog_add>false</blog_add>
+                <blog_delete>false</blog_delete>
+                <comments_add>false</comments_add>
+                <comments_delete>false</comments_delete>
+                <attachments_add>false</attachments_add>
+                <attachments_delete>false</attachments_delete>
+                <restrictions_addDelete>false</restrictions_addDelete>
+                <mail_delete>false</mail_delete>
+                <space_export>false</space_export>
+                <space_admin>false</space_admin>
+            </anonymousAccess>
+        </spacePermissions>
+        <testPages>
+            <pageTitle>[-TestSpace-]buttonShowConditionsTest Home</pageTitle>
+            <storageFormat>
+&lt;ac:layout&gt;&lt;ac:layout-section ac:type=&quot;single&quot;&gt;&lt;ac:layout-cell&gt;
+&lt;ac:structured-macro ac:macro-id=&quot;a8649de9-cd7c-4b51-9b7f-fd9496b7d979&quot; ac:name=&quot;tip&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;title&quot;&gt;Welcome to your new space!&lt;/ac:parameter&gt;&lt;ac:rich-text-body&gt;
+                    &lt;p&gt;Confluence spaces are great for sharing content and news with your team. This is your home page. Right now it shows recent space activity, but you can customize this page in anyway you like.&lt;/p&gt;
+                &lt;/ac:rich-text-body&gt;&lt;/ac:structured-macro&gt;&lt;h2&gt;Complete these tasks to get started&lt;/h2&gt;&lt;ac:task-list&gt;
+&lt;ac:task&gt;
+&lt;ac:task-id&gt;3149&lt;/ac:task-id&gt;
+&lt;ac:task-status&gt;incomplete&lt;/ac:task-status&gt;
+&lt;ac:task-body&gt;
+                        &lt;strong&gt;Edit this home page&lt;/strong&gt; - Click &lt;em&gt;Edit&lt;/em&gt; in the top right of this screen to customize your Space home page
+                    &lt;/ac:task-body&gt;
+&lt;/ac:task&gt;
+&lt;ac:task&gt;
+&lt;ac:task-id&gt;3150&lt;/ac:task-id&gt;
+&lt;ac:task-status&gt;incomplete&lt;/ac:task-status&gt;
+&lt;ac:task-body&gt;
+                        &lt;strong&gt;Create your first page&lt;/strong&gt; - Click the &lt;em&gt;Create&lt;/em&gt; button in the header to get started
+                    &lt;/ac:task-body&gt;
+&lt;/ac:task&gt;
+&lt;ac:task&gt;
+&lt;ac:task-id&gt;3151&lt;/ac:task-id&gt;
+&lt;ac:task-status&gt;incomplete&lt;/ac:task-status&gt;
+&lt;ac:task-body&gt;
+                        &lt;strong&gt;Brand your Space&lt;/strong&gt; - Click &lt;em&gt;Configure Sidebar&lt;/em&gt; in the left panel to update space details and logo
+                    &lt;/ac:task-body&gt;
+&lt;/ac:task&gt;
+&lt;ac:task&gt;
+&lt;ac:task-id&gt;3152&lt;/ac:task-id&gt;
+&lt;ac:task-status&gt;incomplete&lt;/ac:task-status&gt;
+&lt;ac:task-body&gt;
+                        &lt;strong&gt;Set permissions&lt;/strong&gt; - Click &lt;em&gt;Space Tools&lt;/em&gt; in the left sidebar to update permissions and give others access
+                    &lt;/ac:task-body&gt;
+&lt;/ac:task&gt;
+&lt;/ac:task-list&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/ac:layout-cell&gt;&lt;/ac:layout-section&gt;&lt;ac:layout-section ac:type=&quot;two_equal&quot;&gt;&lt;ac:layout-cell&gt;
+&lt;h2&gt;Recent space activity&lt;/h2&gt;&lt;p&gt;
+                    &lt;ac:structured-macro ac:macro-id=&quot;30e9e6ce-aba6-421c-b0bd-2a90c2597892&quot; ac:name=&quot;recently-updated&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;types&quot;&gt;page, comment, blogpost&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;max&quot;&gt;5&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;hideHeading&quot;&gt;true&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;theme&quot;&gt;social&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;
+                &lt;/p&gt;&lt;/ac:layout-cell&gt;&lt;ac:layout-cell&gt;
+&lt;h2&gt;Space contributors&lt;/h2&gt;&lt;p&gt;
+                    &lt;ac:structured-macro ac:macro-id=&quot;b81d8035-cf0e-4fd7-9e05-b9ac94fb4eb0&quot; ac:name=&quot;contributors&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;mode&quot;&gt;list&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;scope&quot;&gt;descendants&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;limit&quot;&gt;5&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;showLastTime&quot;&gt;true&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;order&quot;&gt;update&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;
+                &lt;/p&gt;&lt;/ac:layout-cell&gt;&lt;/ac:layout-section&gt;&lt;ac:layout-section ac:type=&quot;single&quot;&gt;&lt;ac:layout-cell&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/ac:layout-cell&gt;&lt;/ac:layout-section&gt;&lt;/ac:layout&gt;</storageFormat>
+            <children>Button Test admin in Group</children>
+            <children>Button Test permitted groups empty</children>
+            <children>Button Test user&amp;admin in Group</children>
+            <children>Button Test user in Group</children>
+            <children>Button Test user in multiple Groups</children>
+            <children>Button Test user is in one of the groups</children>
+            <children>Button Test user is not in group</children>
+            <children>Button Test user is not in groups</children>
+            <children>custompermissionallowed</children>
+            <children>Custom Plugin Permission</children>
+            <children>custom plugin permission not allowed</children>
+            <children>noViewPermissionPage</children>
+            <children>sourcepagetest</children>
+            <pagePermissions/>
+            <pagePosition>-1</pagePosition>
+            <isHomePage>true</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>Button Test admin in Group</pageTitle>
+            <storageFormat>&lt;p&gt;&lt;ac:structured-macro ac:macro-id=&quot;21695cd8-461f-412b-becc-7a9a76bf82aa&quot; ac:name=&quot;spacetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;@self&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;adminingroup&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;permitted-groups&quot;&gt;[-testgroup-]admin&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/p&gt;</storageFormat>
+            <pagePermissions/>
+            <pagePosition>0</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>Button Test permitted groups empty</pageTitle>
+            <storageFormat>&lt;p&gt;&lt;ac:structured-macro ac:macro-id=&quot;e9a2589c-a72c-4fc8-9eb0-9c9c92872815&quot; ac:name=&quot;spacetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;@self&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;permitted groups empty&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/p&gt;</storageFormat>
+            <pagePermissions/>
+            <pagePosition>1</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>Button Test user&amp;admin in Group</pageTitle>
+            <storageFormat>&lt;p&gt;&lt;ac:structured-macro ac:macro-id=&quot;183afd4e-5c48-4d6b-adb8-3de606faa4b8&quot; ac:name=&quot;spacetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;@self&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;adminanduseringroup&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;permitted-groups&quot;&gt;[-testgroup-]adminanduser&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/p&gt;</storageFormat>
+            <pagePermissions/>
+            <pagePosition>3</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>Button Test user in Group</pageTitle>
+            <storageFormat>&lt;p&gt;&lt;ac:structured-macro ac:macro-id=&quot;dcd95e5e-9978-41e2-830f-2d66b4649278&quot; ac:name=&quot;spacetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;@self&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;useringroup&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;permitted-groups&quot;&gt;[-testgroup-]user&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/p&gt;</storageFormat>
+            <pagePermissions/>
+            <pagePosition>4</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>Button Test user in multiple Groups</pageTitle>
+            <storageFormat>&lt;p&gt;&lt;ac:structured-macro ac:macro-id=&quot;534cdaea-ec05-409a-8814-3399f2a6c090&quot; ac:name=&quot;spacetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;@self&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;user is in multiple groups&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;permitted-groups&quot;&gt;[-testgroup-]user,confluence-users&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/p&gt;</storageFormat>
+            <pagePermissions/>
+            <pagePosition>5</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>Button Test user is in one of the groups</pageTitle>
+            <storageFormat>&lt;p&gt;&lt;ac:structured-macro ac:macro-id=&quot;72e2457b-038c-4cd4-85c5-43869e8fec31&quot; ac:name=&quot;spacetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;@self&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;gwag&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;permitted-groups&quot;&gt;[-testgroup-]admin,[-testgroup-]emptygroup,[-testgroup-]user&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/p&gt;</storageFormat>
+            <pagePermissions/>
+            <pagePosition>6</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>Button Test user is not in group</pageTitle>
+            <storageFormat>&lt;p&gt;&lt;ac:structured-macro ac:macro-id=&quot;bb254ba3-08ad-48bd-b03a-3c5dfde8e9f5&quot; ac:name=&quot;spacetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;@self&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;emptygroup&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;permitted-groups&quot;&gt;[-testgroup-]emptygroup&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;</storageFormat>
+            <pagePermissions/>
+            <pagePosition>7</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>Button Test user is not in groups</pageTitle>
+            <storageFormat>&lt;p&gt;&lt;ac:structured-macro ac:macro-id=&quot;f371aea5-5245-499d-ae45-c437fa1178d5&quot; ac:name=&quot;spacetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;@self&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;user is not in groups&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;permitted-groups&quot;&gt;[-testgroup-]admin,[-testgroup-]group2,[-testgroup-]emptygroup&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/p&gt;</storageFormat>
+            <pagePermissions/>
+            <pagePosition>8</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>custompermissionallowed</pageTitle>
+            <storageFormat>&lt;p&gt;&lt;ac:structured-macro ac:macro-id=&quot;0e64d1e7-9e6b-44ca-bd88-c86a319cf6c7&quot; ac:name=&quot;spacetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;[-TestSpace-]customPermittedSpace Home&quot; ri:space-key=&quot;seleniumCustomPermittedSpace&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;custompermissionallowed&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/p&gt;</storageFormat>
+            <pagePermissions/>
+            <pagePosition>9</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>Custom Plugin Permission</pageTitle>
+            <storageFormat></storageFormat>
+            <pagePermissions/>
+            <pagePosition>10</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>custom plugin permission not allowed</pageTitle>
+            <storageFormat>&lt;p&gt;&lt;ac:structured-macro ac:macro-id=&quot;08bdf508-a55d-4dc0-8a27-654539e77d1c&quot; ac:name=&quot;spacetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;[-TestSpace-]TargetPageShowCondition Home&quot; ri:space-key=&quot;seleniumTargetSpaceAddPermission&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;custompermissionnotallowed&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/p&gt;</storageFormat>
+            <pagePermissions/>
+            <pagePosition>11</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>noViewPermissionPage</pageTitle>
+            <storageFormat></storageFormat>
+            <pagePermissions>
+                <usersCanView>admin</usersCanView>
+                <usersCanEdit>admin</usersCanEdit>
+            </pagePermissions>
+            <pagePosition>12</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+        <testPages>
+            <pageTitle>sourcepagetest</pageTitle>
+            <storageFormat>&lt;p&gt;&lt;ac:structured-macro ac:macro-id=&quot;95c62935-d70a-452b-a67d-0bd16c76837b&quot; ac:name=&quot;spacetreecreator-button&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;source-page&quot;&gt;&lt;ac:link&gt;&lt;ri:page ri:content-title=&quot;noViewPermissionPage&quot; /&gt;&lt;/ac:link&gt;&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;button-caption&quot;&gt;noviewpermission&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;&lt;/p&gt;</storageFormat>
+            <pagePermissions/>
+            <pagePosition>13</pagePosition>
+            <isHomePage>false</isHomePage>
+        </testPages>
+    </testSpaces>
+    <testSpaces>
+        <spaceName>[-TestSpace-]TargetPageShowCondition</spaceName>
+        <spaceKey>seleniumTargetSpaceAddPermission</spaceKey>
+        <createdBy>admin</createdBy>
+        <spacePermissions>
+            <groups>
+                <name>confluence-users</name>
+                <spaceRestrictions>
+                    <all_view>true</all_view>
+                    <pages_add>true</pages_add>
+                    <pages_delete>false</pages_delete>
+                    <blog_add>true</blog_add>
+                    <blog_delete>false</blog_delete>
+                    <comments_add>true</comments_add>
+                    <comments_delete>false</comments_delete>
+                    <attachments_add>true</attachments_add>
+                    <attachments_delete>false</attachments_delete>
+                    <restrictions_addDelete>false</restrictions_addDelete>
+                    <mail_delete>false</mail_delete>
+                    <space_export>true</space_export>
+                    <space_admin>true</space_admin>
+                </spaceRestrictions>
+            </groups>
+            <users>
+                <name>admin</name>
+                <spaceRestrictions>
+                    <all_view>true</all_view>
+                    <pages_add>true</pages_add>
+                    <pages_delete>true</pages_delete>
+                    <blog_add>true</blog_add>
+                    <blog_delete>true</blog_delete>
+                    <comments_add>true</comments_add>
+                    <comments_delete>true</comments_delete>
+                    <attachments_add>true</attachments_add>
+                    <attachments_delete>true</attachments_delete>
+                    <restrictions_addDelete>true</restrictions_addDelete>
+                    <mail_delete>true</mail_delete>
+                    <space_export>true</space_export>
+                    <space_admin>true</space_admin>
+                </spaceRestrictions>
+            </users>
+            <anonymousAccess>
+                <all_view>false</all_view>
+                <pages_add>false</pages_add>
+                <pages_delete>false</pages_delete>
+                <blog_add>false</blog_add>
+                <blog_delete>false</blog_delete>
+                <comments_add>false</comments_add>
+                <comments_delete>false</comments_delete>
+                <attachments_add>false</attachments_add>
+                <attachments_delete>false</attachments_delete>
+                <restrictions_addDelete>false</restrictions_addDelete>
+                <mail_delete>false</mail_delete>
+                <space_export>false</space_export>
+                <space_admin>false</space_admin>
+            </anonymousAccess>
+        </spacePermissions>
+        <testPages>
+            <pageTitle>[-TestSpace-]TargetPageShowCondition Home</pageTitle>
+            <storageFormat>
+&lt;ac:layout&gt;&lt;ac:layout-section ac:type=&quot;single&quot;&gt;&lt;ac:layout-cell&gt;
+&lt;ac:structured-macro ac:macro-id=&quot;2f60e996-4ccb-4740-9dca-dcbbf08f248f&quot; ac:name=&quot;tip&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;title&quot;&gt;Welcome to your new space!&lt;/ac:parameter&gt;&lt;ac:rich-text-body&gt;
+                    &lt;p&gt;Confluence spaces are great for sharing content and news with your team. This is your home page. Right now it shows recent space activity, but you can customize this page in anyway you like.&lt;/p&gt;
+                &lt;/ac:rich-text-body&gt;&lt;/ac:structured-macro&gt;&lt;h2&gt;Complete these tasks to get started&lt;/h2&gt;&lt;ac:task-list&gt;
+&lt;ac:task&gt;
+&lt;ac:task-id&gt;3105&lt;/ac:task-id&gt;
+&lt;ac:task-status&gt;incomplete&lt;/ac:task-status&gt;
+&lt;ac:task-body&gt;
+                        &lt;strong&gt;Edit this home page&lt;/strong&gt; - Click &lt;em&gt;Edit&lt;/em&gt; in the top right of this screen to customize your Space home page
+                    &lt;/ac:task-body&gt;
+&lt;/ac:task&gt;
+&lt;ac:task&gt;
+&lt;ac:task-id&gt;3106&lt;/ac:task-id&gt;
+&lt;ac:task-status&gt;incomplete&lt;/ac:task-status&gt;
+&lt;ac:task-body&gt;
+                        &lt;strong&gt;Create your first page&lt;/strong&gt; - Click the &lt;em&gt;Create&lt;/em&gt; button in the header to get started
+                    &lt;/ac:task-body&gt;
+&lt;/ac:task&gt;
+&lt;ac:task&gt;
+&lt;ac:task-id&gt;3107&lt;/ac:task-id&gt;
+&lt;ac:task-status&gt;incomplete&lt;/ac:task-status&gt;
+&lt;ac:task-body&gt;
+                        &lt;strong&gt;Brand your Space&lt;/strong&gt; - Click &lt;em&gt;Configure Sidebar&lt;/em&gt; in the left panel to update space details and logo
+                    &lt;/ac:task-body&gt;
+&lt;/ac:task&gt;
+&lt;ac:task&gt;
+&lt;ac:task-id&gt;3108&lt;/ac:task-id&gt;
+&lt;ac:task-status&gt;incomplete&lt;/ac:task-status&gt;
+&lt;ac:task-body&gt;
+                        &lt;strong&gt;Set permissions&lt;/strong&gt; - Click &lt;em&gt;Space Tools&lt;/em&gt; in the left sidebar to update permissions and give others access
+                    &lt;/ac:task-body&gt;
+&lt;/ac:task&gt;
+&lt;/ac:task-list&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/ac:layout-cell&gt;&lt;/ac:layout-section&gt;&lt;ac:layout-section ac:type=&quot;two_equal&quot;&gt;&lt;ac:layout-cell&gt;
+&lt;h2&gt;Recent space activity&lt;/h2&gt;&lt;p&gt;
+                    &lt;ac:structured-macro ac:macro-id=&quot;78a8fe52-55b6-4d02-94fd-a20c7a5d18bd&quot; ac:name=&quot;recently-updated&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;types&quot;&gt;page, comment, blogpost&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;max&quot;&gt;5&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;hideHeading&quot;&gt;true&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;theme&quot;&gt;social&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;
+                &lt;/p&gt;&lt;/ac:layout-cell&gt;&lt;ac:layout-cell&gt;
+&lt;h2&gt;Space contributors&lt;/h2&gt;&lt;p&gt;
+                    &lt;ac:structured-macro ac:macro-id=&quot;d3a9a104-37bf-4a80-9408-65c89410282e&quot; ac:name=&quot;contributors&quot; ac:schema-version=&quot;1&quot;&gt;&lt;ac:parameter ac:name=&quot;mode&quot;&gt;list&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;scope&quot;&gt;descendants&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;limit&quot;&gt;5&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;showLastTime&quot;&gt;true&lt;/ac:parameter&gt;&lt;ac:parameter ac:name=&quot;order&quot;&gt;update&lt;/ac:parameter&gt;&lt;/ac:structured-macro&gt;
+                &lt;/p&gt;&lt;/ac:layout-cell&gt;&lt;/ac:layout-section&gt;&lt;ac:layout-section ac:type=&quot;single&quot;&gt;&lt;ac:layout-cell&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/ac:layout-cell&gt;&lt;/ac:layout-section&gt;&lt;/ac:layout&gt;</storageFormat>
+            <pagePermissions/>
+            <isHomePage>true</isHomePage>
+        </testPages>
+    </testSpaces>
+</testData>

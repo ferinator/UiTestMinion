@@ -1,0 +1,69 @@
+<atlassian-plugin key="${atlassian.plugin.key}" name="${project.name}" plugins-version="2">
+    <plugin-info>
+        <description>${project.description}</description>
+        <version>${project.version}</version>
+        <vendor name="${project.organization.name}" url="${project.organization.url}" />
+        <param name="plugin-icon">images/pluginIcon.png</param>
+        <param name="plugin-logo">images/pluginLogo.png</param>
+    </plugin-info>
+
+    <!-- add our i18n resource -->
+    <resource type="i18n" name="i18n" location="UiTestMinion"/>
+
+    <resource type="download" name="images/" location="/images"/>
+
+    <!-- add our web resources -->
+    <web-resource key="UiTestMinion-resources" name="UiTestMinion Web Resources">
+        <dependency>com.atlassian.auiplugin:ajs</dependency>
+        <dependency>com.atlassian.auiplugin:dialog2</dependency>
+        <dependency>com.atlassian.auiplugin:aui-flag</dependency>
+
+        <resource type="download" name="UiTestMinion.css" location="/css/UiTestMinion.css"/>
+        <resource type="download" name="eps-dialog.js" location="/js/eps-dialog.js"/>
+        <resource type="download" name="eps-flag.js" location="/js/eps-flag.js"/>
+        <resource type="download" name="utm-export.js" location="/js/utm-export.js"/>
+
+        <context>atl.general</context>
+    </web-resource>
+
+
+    <!-- *****************UiTestMinion Export/Import ContextMenuIcon**************** -->
+
+    <web-item name="ui-test-minion-icon" key="ui-test-minion-icon"
+              section="system.content.action/modify"
+              weight="10"> <!--There are four sections in the Tools menu: primary, marker, secondary and modify-->
+        <description key="item.ui-test-minion-icon.link.desc">The "Page Tree Creator" lets you copy the
+            curently active page with all it's subpages and change values for template tags (eg. __template__) for the
+            currently active page and all it's subpages.
+        </description>
+        <icon width="16" height="16">
+            <link>/download/resources/eps.focuspro.UiTestMinion/images/utm-icon.png
+            </link><!--Icon for Tools menu action-->
+        </icon>
+        <label key="Minion Export"/><!--This String will be seen in the Menu-->
+        <link linkId="utm-export-menu-link">#
+        </link><!--This link points to the <action> in <xwork> that should be performed. It is put together by the <package namespace> and the <action name>.action?pageID=$page.id-->
+        <styleClass>aui-list-item-link issueaction-link-issue opsbar-operations</styleClass>
+    </web-item>
+
+    <web-item name="ui-test-minion-import" key="ui-test-minion-import"
+              section="system.content.action/modify"
+              weight="10"> <!--There are four sections in the Tools menu: primary, marker, secondary and modify-->
+        <description key="item.ui-test-minion-icon.link.desc">Imports spaces and pages that one exported beforehand with this add-on
+        </description>
+        <icon width="16" height="16">
+            <link>/download/resources/eps.focuspro.UiTestMinion/images/utm-icon.png
+            </link><!--Icon for Tools menu action-->
+        </icon>
+        <label key="Minion Import"/><!--This String will be seen in the Menu-->
+        <link linkId="utm-import-menu-link">#
+        <!--<link linkId="ui-test-minion">/plugins/ui-test-minion/ui-test-minion-settings.action?pageId=$page.id-->
+        </link><!--This link points to the <action> in <xwork> that should be performed. It is put together by the <package namespace> and the <action name>.action?pageID=$page.id-->
+        <styleClass>aui-list-item-link issueaction-link-issue opsbar-operations</styleClass>
+    </web-item>
+
+    <rest key="utminion-rest" path="/utm" version="1.0">
+        <description>Provides services for the progress indicator.</description>
+    </rest>
+    
+</atlassian-plugin>

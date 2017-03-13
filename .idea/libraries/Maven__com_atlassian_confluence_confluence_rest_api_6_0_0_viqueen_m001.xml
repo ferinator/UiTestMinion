@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.atlassian.confluence:confluence-rest-api:6.0.0-viqueen-m001">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/atlassian/confluence/confluence-rest-api/6.0.0-viqueen-m001/confluence-rest-api-6.0.0-viqueen-m001.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/atlassian/confluence/confluence-rest-api/6.0.0-viqueen-m001/confluence-rest-api-6.0.0-viqueen-m001-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/atlassian/confluence/confluence-rest-api/6.0.0-viqueen-m001/confluence-rest-api-6.0.0-viqueen-m001-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
